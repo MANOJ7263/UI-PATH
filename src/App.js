@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Home from "./components/Home";
+import QuizApp from "./components/QuizApp";
+import History from "./components/History";
+import "./App.css";
 
 function App() {
+  const [view, setView] = useState("home");
+  const [user, setUser] = useState("");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {view === "home" && (
+        <Home
+          onStart={(name) => {
+            setUser(name);
+            setView("quiz");
+          }}
+          onHistory={() => setView("history")}
+        />
+      )}
+      {view === "quiz" && <QuizApp user={user} onExit={() => setView("home")} />}
+      {view === "history" && <History onBack={() => setView("home")} />}
     </div>
   );
 }

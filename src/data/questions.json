@@ -1,0 +1,3416 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "At indication time, the Strict Selector has the following functionalities available:",
+    "options": {
+      "A": "Open in UiExplorer, Copy to clipboard, Show all matches.",
+      "B": "Refresh, Open in UiExplorer, Copy to clipboard.",
+      "C": "Accuracy, Open in UiExplorer, Copy to clipboard, Show all matches.",
+      "D": "Ignore text, Copy to clipboard, Show all matches."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 2,
+    "question_text": "A developer has created a string array variable as shown below: UserNames = {\"Jane\", \"Jack\", \"Jill\", \"John\"} Which expression should the developer use in a Log Message activity to print the elements of the array separated by the string \", \"?",
+    "options": {
+      "A": "String.Join(UserNames, \",\")",
+      "B": "String.Join(\", \", UserNames)",
+      "C": "String.Concat(UserNames,\",\")",
+      "D": "String.Concat(\",\", UserNames)"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 3,
+    "question_text": "What is the default URL of the OCR server that runs the Computer Vision service?",
+    "options": {
+      "A": "https://server.uipath.com/",
+      "B": "https://cvserver.uipath.com/",
+      "C": "https://cv.uipath.com/",
+      "D": "https://computervision.uipath.com/"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 5,
+    "question_text": "Which LINQ method is used to filter data in a List or Data Table based on a condition?",
+    "options": {
+      "A": "OrderBy",
+      "B": "Where",
+      "C": "GroupBy",
+      "D": "Select"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 6,
+    "question_text": "Which activity can be used to transition a Background Process to Foreground?",
+    "options": {
+      "A": "Use Foreground",
+      "B": "Activate",
+      "C": "Maximize Window",
+      "D": "Set Focus"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 8,
+    "question_text": "A developer has created a variable of type List of Strings named \"UsersList\", and initialized it with an empty list: \"UsersList = new List(Of String)\". What is printed in the log message after the following Invoke Code is executed?",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "Object reference not set to an instance exception is thrown",
+      "D": "System Argument Exception is thrown"
+    },
+    "answer": "A",
+    "images": [
+      "8.jpg"
+    ]
+  },
+  {
+    "question_number": 10,
+    "question_text": "Starting with UiPath Studio version 2022.10, what happens to dependencies that lack Windows compatibility when they are converted in a project?",
+    "options": {
+      "A": "They are replaced with compatible alternatives.",
+      "B": "They are removed from the project.",
+      "C": "They are marked as unresolved.",
+      "D": "They are automatically resolved."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 11,
+    "question_text": "A developer defines new log fields using the Add Log Fields activity. When will the custom log fields stop being added to the robot execution logs?",
+    "options": {
+      "A": "When an Exception is caught and handled.",
+      "B": "When a Remove Log Fields activity is used to remove them.",
+      "C": "When a Log Message activity is executed with Log Level = Warn or higher.",
+      "D": "When the first Log Message activity is executed."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 13,
+    "question_text": "What status needs to be selected in the Set Transaction Status activity in UiPath Studio so that the respective Queue Item will be retried?",
+    "options": {
+      "A": "Failed",
+      "B": "Retried",
+      "C": "Abandoned",
+      "D": "Postponed"
+    },
+    "answer": "A",
+    "images": [
+      "page_5_1.png"
+    ]
+  },
+  {
+    "question_number": 14,
+    "question_text": "Considering that the attached table is stored in a variable called “dt”. Which LINQ query can be used to return the maximum total Quantity?",
+    "options": {
+      "A": "dt.AsEnumerable. GroupBy(Function(x)x(\"Item\"). ToString). Max(Function(x)x.Sum(Function(y) Convert.Tolnt32(y(\"Quantity\").ToString)))",
+      "B": "dt.AsEnumerable. Max(Function(x) Convert. Tolnt32(x(\"Quantity\"). ToString))",
+      "C": "dt.AsEnumerable. Max(Function(x) Convert.Tolnt32(x(\"Quantity\"). ToString))(\"Item\")",
+      "D": "dt.AsEnumerable. OrderByDescending(Function(x) Convert. Tolnt32(x(\"Quantity\").ToString)). First.Item(\"Quantity\")"
+    },
+    "answer": "A",
+    "images": [
+      "page_5_1.png"
+    ]
+  },
+  {
+    "question_number": 15,
+    "question_text": "Which of the following options is correct regarding the below Object Repository tree structure?",
+    "options": {
+      "A": "One ScreenTwo ApplicationsFive UI Elements",
+      "B": "One ApplicationTwo UI ElementsFive Screens",
+      "C": "One LibraryOne ApplicationTwo ScreensFive UI Elements",
+      "D": "One ApplicationTwo ScreensFive UI Elements"
+    },
+    "answer": "D",
+    "images": [
+      "15.jpg"
+    ]
+  },
+  {
+    "question_number": 16,
+    "question_text": "Which activity should a developer use to add custom information to logs related to transactions for tracing purposes?",
+    "options": {
+      "A": "Add Log Fields",
+      "B": "Update Logs",
+      "C": "Add Custom Log",
+      "D": "Build Log"
+    },
+    "answer": "A",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 18,
+    "question_text": "When automating the process of entering values into a web form, requiring each field to be brought to the foreground, which property of the Type Into activity should be adjusted to achieve this?",
+    "options": {
+      "A": "Delay before",
+      "B": "Activate",
+      "C": "Selector",
+      "D": "Input Element"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 20,
+    "question_text": "What is the use of job priorities in unattended automations within UiPath Orchestrator?",
+    "options": {
+      "A": "To determine which processes should be executed first when dealing with multiple jobs.",
+      "B": "To sort and organize tasks within a folder.",
+      "C": "To create job dependencies that must be completed before new job execution.",
+      "D": "To determine machine resource allocation among processes."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 21,
+    "question_text": "Which expression correctly converts the string variable \"DateString\" with the value \"03/03/2023 16:23:11\" into a Date Time variable?",
+    "options": {
+      "A": "DateTime.ParseExact(DateString, \"dd/MM/yyyy hh:mm:ss\", Culturelnfo.InvariantCulture)",
+      "B": "Date Time.ParseExact(DateString, \"MM/dd/yyyy hh:mm:ss\", Culturelnfo.InvariantCulture)",
+      "C": "DateTime.ParseExact(DateString, \"mm/dd/yyyy HH:mm:ss\", Culturelnfo.InvariantCulture)",
+      "D": "DateTime.ParseExact(DateString, \"dd/MM/yyyy HH:mm:ss\", Culturelnfo.InvariantCulture)"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 22,
+    "question_text": "What is a pre-requisite for running InitAllApplications TestCase?",
+    "options": {
+      "A": "Invoke CloseAllApplications XAML file in Given.",
+      "B": "Invoke KillAllProcesses XAML file in Given.",
+      "C": "Invoke InitAllSettings XAML file in Given.",
+      "D": "Invoke SetTransactionStatus XAML file in Given."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 24,
+    "question_text": "Consider testing a workflow that computes the sum of two numbers having the data driven test data from the Excel file below:",
+    "options": {
+      "A": "Click Right on the Test Case and select Update Test Data.",
+      "B": "Click Right on the Test Case and select Add Test Data.",
+      "C": "Click Right on the Test Case and select Remove Test Data.",
+      "D": "Click Right on the Test Case and select Refresh Test Data."
+    },
+    "answer": "A",
+    "images": [
+      "image.png"
+    ]
+  },
+  {
+    "question_number": 25,
+    "question_text": "In a UiPath project that uses State Machines, under what circumstances should the Final State activity be used in the project?",
+    "options": {
+      "A": "When initiating the first state of a state machine.",
+      "B": "When marking the successful completion or termination of a state machine's execution.",
+      "C": "When a particular state contains complex conditional logic.",
+      "D": "When an intermediary state has multiple possible transitions."
+    },
+    "answer": "B",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 27,
+    "question_text": "What is the functionality of the Include Subfolders filter in the Monitoring pages when a modern folder is selected?",
+    "options": {
+      "A": "It allows you to choose between background and foreground processes for the displayed data.",
+      "B": "It allows you to select whether the contents of the selected folder's subfolders are displayed.",
+      "C": "It enables you to sort the displayed data based on job priorities.",
+      "D": "It allows you to allocate licenses per machine for the displayed data."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 28,
+    "question_text": "What is a prerequisite for performing Remote Debugging using a Remote Machine Connection?",
+    "options": {
+      "A": "Studio and the remote robot must be connected to the same Orchestrator tenant.",
+      "B": "The same user must be signed in Studio and the remote robot.",
+      "C": "Studio, the remote robot, and Orchestrator are running version 2021.10 or later.",
+      "D": "TCP/IP connectivity exists between the Studio machine and the remote machine."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 29,
+    "question_text": "Which command in the UiPath installation folder configures the UiPath.RemoteDebugging.Agent utility on a Windows robot to accept remote debugging requests from Studio?",
+    "options": {
+      "A": "dotnet ./UiPath.RemoteDebugging.Agent.dll enable -- port -- password -- verbose",
+      "B": "UiPath.Remote Debugging.Agent.exe start -- port -- password -- verbose",
+      "C": "UiPath.Remote Debugging.Agent.exe enable -- port -- username -- password -- verbose",
+      "D": "UiPath.Remote Debugging.Agent.exe enable -- port -- password -- verbose"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 31,
+    "question_text": "What is the role of connections in the UiPath Integration Service?",
+    "options": {
+      "A": "Connections establish tasks and exchanges between users and external applications using the authentication process of the API provider.",
+      "B": "Connections establish tasks and exchanges based on a connector's compatibility with the external application.",
+      "C": "Connections establish tasks and exchanges between users and external applications using the authentication process of the UI automation provider.",
+      "D": "Connections establish tasks and exchanges between users and external applications using the server-side triggers."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 32,
+    "question_text": "What is the main function of the UiPath Remote Runtime component?",
+    "options": {
+      "A": "It facilitates the communication between a remote application or desktop and the dedicated UiPath extension, allowing selectors to be natively generated in UiExplorer.",
+      "B": "It enables the use of OCR and image recognition activities on remote applications or desktops, without any extensions, allowing selectors to be natively generated in UiExplorer.",
+      "C": "It introduces support for headless browser automation, so browser automation doesn't necessarily have to rely on visual elements on screen, such as window frames.",
+      "D": "It allows automations to run on the user machine, in a different Windows session."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 33,
+    "question_text": "What is the purpose of the Capture All Elements feature in Object Repository?",
+    "options": {
+      "A": "To capture the selected elements of an application from multiple screens simultaneously using the Computer Vision technology.",
+      "B": "To capture all the available elements of an application using the Computer Vision technology.",
+      "C": "To capture the selected elements of an application using the Computer Vision technology.",
+      "D": "To capture all elements of an application from multiple screens simultaneously using the Computer Vision technology."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 36,
+    "question_text": "How does UiPath Integration Service benefit automation developers?",
+    "options": {
+      "A": "By standardizing authorization and authentication, managing API connections, and enabling faster integration into SaaS platforms.",
+      "B": "By offering a comprehensive, unified platform dedicated solely to UI automation, enabling seamless integration with third-party applications.",
+      "C": "By enabling developers to create custom UI elements for applications without using APIs.",
+      "D": "By substituting the requirement for API automation with UI automation capabilities, delivering a more manageable and user-friendly approach, allowing users to streamline their processes efficiently and effectively facilitating a more rapid integration process."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 37,
+    "question_text": "A developer intends to enter text into an input field using a combination of a string and a hotkey. The input action should take place within a hidden or minimized window. Which input method(s) can be used individually for the Type Into activity?",
+    "options": {
+      "A": "Simulate only.",
+      "B": "Simulate and Window Messages.",
+      "C": "Same as App/Browser and Simulate.",
+      "D": "Window Messages only."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 38,
+    "question_text": "Following UiPath best practices, which project structure is best-suited for complex processes in UiPath Studio?",
+    "options": {
+      "A": "State Machine",
+      "B": "Global Exception Handler",
+      "C": "Sequence",
+      "D": "Flowchart"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 41,
+    "question_text": "A developer needs to create a repetitive process in the REFramework. Following the best practices, which action(s) should be performed to defend against potential robot crashes such as \"out of memory\"?",
+    "options": {
+      "A": "Build a script that compares current CPU usage values to a threshold and clears data as needed.",
+      "B": "After every transaction, clear the transaction data, close the applications, and re-open the applications.",
+      "C": "All \"Invoke Workflow File\" activities from the Main.xaml file should be marked with the Isolated option.",
+      "D": "Add a \"Clear Collection\" activity at the beginning of the Process.xaml workflow."
+    },
+    "answer": "B",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 42,
+    "question_text": "The Extract PDF Page Range activity is used to extract a specific set of pages from a PDF file. Which of the following statements correctly describes this activity?",
+    "options": {
+      "A": "OutputFileName argument is optional.",
+      "B": "Range argument accepts complex range values or \"All\".",
+      "C": "PageCount argument outputs the number of extracted pages.",
+      "D": "Password-protected PDF files cannot be processed with this activity."
+    },
+    "answer": "B",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 44,
+    "question_text": "What distinguishes the Settings sheet from the Assets sheet in the \"Config.xlsx\" file? Settings sheet contains Credential Assets stored in Orchestrator. Assets sheet contains hard-coded values.",
+    "options": {
+      "A": "Settings sheet contains hard-coded values. Assets sheet contains all names of Orchestrator Assets including those of type Credential.",
+      "B": "Settings sheet contains only values used for the initialization of applications. Assets sheet contains only Credential Assets stored in Orchestrator.",
+      "C": "Settings sheet contains hard-coded values. Assets sheet contains all names of Orchestrator Assets except those of type Credential."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 45,
+    "question_text": "How would you define a linear process in UiPath?",
+    "options": {
+      "A": "The steps of the process repeat multiple times over different data items. However, the automation design is such that each repeatable part processes independently.",
+      "B": "The steps of the process are performed multiple times, but each time different data items are used.",
+      "C": "The steps of the process refer to the execution of steps in a sequential manner, where each subsequent step depends on the successful completion of the previous step.",
+      "D": "The process steps are performed only once. If the need is to process additional data, then the automation must execute again."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 47,
+    "question_text": "When creating a new test case, which option restricts dynamic data update in UiPath Orchestrator once the test case is published?",
+    "options": {
+      "A": "Data Service",
+      "B": "File",
+      "C": "Test Data Queue",
+      "D": "Data Service with Filter"
+    },
+    "answer": "B",
+    "images": [
+      "47.jpj"
+    ]
+  },
+  {
+    "question_number": 48,
+    "question_text": "Once \"Library A\" has been imported as a dependency in the current project, how can the UI Object Repository defined in \"Library A\" be accessed?",
+    "options": {
+      "A": "The Object Repository is only available in a Library.",
+      "B": "The Object Repository needs to be exported as a UI Library and imported in the Process for it to become available.",
+      "C": "The Object Repository will automatically be available in the Process.",
+      "D": "The Object Repository cannot be passed between a Process and a Library."
+    },
+    "answer": "C",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 51,
+    "question_text": "Which Scraping method should be used for the Get Text activity to capture hidden text from an application?",
+    "options": {
+      "A": "Text attribute",
+      "B": "Default",
+      "C": "Native",
+      "D": "Full text"
+    },
+    "answer": "D",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 52,
+    "question_text": "What do the percentages from the Test Explorer panel represent?",
+    "options": {
+      "A": "Correctness of the code percent.",
+      "B": "Passing percent.",
+      "C": "Coverage percent.",
+      "D": "Percent of test data run."
+    },
+    "answer": "C",
+    "images": [
+      "52.jpg"
+    ]
+  },
+  {
+    "question_number": 54,
+    "question_text": "What happens when the area selection feature in the UiPath Computer Vision wizard is used?",
+    "options": {
+      "A": "The selected area is automatically resized to fit all UI elements within it.",
+      "B": "A portion of the application Ul can be selected, which is helpful when dealing with multiple fields bearing the same label.",
+      "C": "The selected area is treated as a single UI element, with no further analysis of its contents.",
+      "D": "A duplicated Ul can be selected, and the copy is modified in the automation process."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 55,
+    "question_text": "In an RPA Testing project, you created the mock \"MySequencemock\" for the file \"MySequence\". You have to update \"MySequence\" and add a Log Message activity and a Verify Expression activity. What will happen to \"MySequencemock\" file when you save the project, assuming that the file is closed?",
+    "options": {
+      "A": "Only the Log Message activity will be added to the mock file.",
+      "B": "Only the Verify Expression activity will be added to the mock file.",
+      "C": "The changes made in \"MySequence\" workflow file are applied to the mock file.",
+      "D": "The changes made in \"MySequence\" workflow file are not applied to the mock file."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 56,
+    "question_text": "Considering a process developed using REFramework, if the status of a transaction was set to \"Failed\" with the Error Type specified as \"Business\", the process will transition to which state?",
+    "options": {
+      "A": "Get Transaction Data",
+      "B": "Initialization",
+      "C": "End Process",
+      "D": "Process Transaction"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 57,
+    "question_text": "In the context of the REFramework, if the OrchestratorQueueName key is present in both the Settings and Assets sheets, but an asset with the corresponding name is not present in Orchestrator, what will be the behavior at run time?",
+    "options": {
+      "A": "The flow will throw an exception in InitAllSettings workflow.",
+      "B": "The flow will use the value from the Settings sheets since the asset is missing.",
+      "C": "An empty string will be saved for the \"OrchestratorQueueName\" key in the config dictionary.",
+      "D": "The \"OrchestratorQueueName\" key is not added to the config dictionary and the flow will throw in Get Transaction Data workflow."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 60,
+    "question_text": "A developer needs to use the REFramework to automate a business process that involves processing transactions within an Excel table. Each transaction in the table should follow the same steps for processing and queues cannot be used as there is no Orchestrator in the environment. Which variable type is best suited for Transactionltem in this scenario?",
+    "options": {
+      "A": "System.Data.DataRow",
+      "B": "UiPath.Core.Queueltem",
+      "C": "System.Data. DataTable",
+      "D": "System.Data.DataRow[]"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 61,
+    "question_text": "What are the primary functions of the UiPath Integration Service?",
+    "options": {
+      "A": "Automates Ul design, manages API connections, provides limited activities and events, simplifies automation design.",
+      "B": "Enables automation with API integration, manages connections with user-provided authentication, kicks off automations based on application-specific triggers, simplifies automation design with the help of third-party libraries.",
+      "C": "Enables automation with a library of connectors, manages connections easily with standardized authentication, kicks off automations with server-side triggers or events, provides curated activities and events, simplifies automation design.",
+      "D": "Enables automation with UI components, manages API keys, kicks off automations with client-side triggers, provides curated events."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 62,
+    "question_text": "When should the Show Elements button be used in the Computer Vision wizard?",
+    "options": {
+      "A": "Highlighting all Ul elements that have been identified by the Computer Vision analysis.",
+      "B": "Displaying a list of all available UI elements and their properties.",
+      "C": "Activating a real-time view of the target app's UI during automation.",
+      "D": "Filtering out specific UI elements from being processed by the Computer Vision engine."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 63,
+    "question_text": "Which of the following describes the correct hierarchy of the elements in the Object Repository tree structure?",
+    "options": {
+      "A": "Screen, Application, Version, UI Element.",
+      "B": "Application, Version, Screen, UI Element.",
+      "C": "Application, Screen, UI Element, Version.",
+      "D": "Version, Application, Screen, UI Element."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 64,
+    "question_text": "A developer is building a process that types data into input fields using the Hardware Events input method. Which property of the Type Into activity should be modified to reduce the pace at which the input string characters are typed into the fields?",
+    "options": {
+      "A": "Delay before",
+      "B": "Alter disabled element",
+      "C": "Delay between keys",
+      "D": "Delay after"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 65,
+    "question_text": "What is the default polling interval set for an event trigger?",
+    "options": {
+      "A": "1 minute",
+      "B": "5 minutes",
+      "C": "10 minutes",
+      "D": "15 minutes"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 66,
+    "question_text": "What method can be used to change the index of an existing column in a datatable?",
+    "options": {
+      "A": "Setlndex",
+      "B": "MoveAt",
+      "C": "SetColumnIndex",
+      "D": "SetOrdinal"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 68,
+    "question_text": "In order for a developer to utilize the default REFramework without relying on Orchestrator queues, what is the essential prerequisite to ensure that the project does not interact with Orchestrator?",
+    "options": {
+      "A": "Omit the OrchestratorQueueName setting from the Config.xlsx file. Exclude the three SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type.",
+      "B": "Eliminate the Get Transaction Data state from the Main state machine. Exclude the Get Transaction Item activity from the project & change the variable type.",
+      "C": "Exclude the Get Transaction Item activity from the project. Eliminate the three SetTransactionStatus activities from the SetTransactionStatus workflow & change the variable type.",
+      "D": "Remove the Get Transaction Data state from the Main state machine. Remove the OrchestratorQueueName setting from Config.xlsx & change the variable type."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 69,
+    "question_text": "A developer wants to create an automation in which the input from the user and pre- defined conditions determine the transition between stages. In UiPath Studio, which is the recommended type of workflow that meets the requirement?",
+    "options": {
+      "A": "Workflow",
+      "B": "Global Exception Handler",
+      "C": "Flowchart",
+      "D": "State Machine"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 71,
+    "question_text": "How does UiPath handle different dependency versions for multiple running processes that run at the same time?",
+    "options": {
+      "A": "Each running process uses its own required version of the dependency.",
+      "B": "Running processes use the earliest compatible dependency version.",
+      "C": "Each running process automatically adapts to the available dependency version.",
+      "D": "All running processes use the latest version of the dependency available."
+    },
+    "answer": "A",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 73,
+    "question_text": "To retrieve all Outlook emails with the word \"UiPath\" in the subject, which filtering property and filter schema should a developer use?",
+    "options": {
+      "A": "Property: FilterByMessageldsSchema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like 'UiPath%\"\"",
+      "B": "Property: FilterSchema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like '%UiPath%\"\"",
+      "C": "Property: FilterSchema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like 'UiPath%\"\"",
+      "D": "Property: FilterByMessageldsSchema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like '%UiPath%\"\""
+    },
+    "answer": "B",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 74,
+    "question_text": "Which of the following options is correct about a State Machine layout?",
+    "options": {
+      "A": "Can have multiple initial states and multiple final states.",
+      "B": "Can have only one initial state and only one final state.",
+      "C": "Can have only one initial state and multiple final states.",
+      "D": "Can have multiple initial states and only one final state."
+    },
+    "answer": "C",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 75,
+    "question_text": "What role do Triggers play in the UiPath Integration Service?",
+    "options": {
+      "A": "Manage connections between UiPath Studio and third-party applications.",
+      "B": "Provide a mechanism for starting processes on a scheduled basis from Orchestrator.",
+      "C": "Assist in the creation of automation projects by providing event-based activities.",
+      "D": "Provide a mechanism for subscribing to specific events from third-party applications, automatically starting processes in Orchestrator."
+    },
+    "answer": "D",
+    "images": [
+      ""
+    ]
+  },
+  {
+    "question_number": 76,
+    "question_text": "The following table is stored in a variable called \"dt\".",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "80",
+      "D": "null"
+    },
+    "answer": "C",
+    "images": [
+      "76.jpg"
+    ]
+  },
+  {
+    "question_number": 77,
+    "question_text": "In the context of a linear process, implemented with REFramework, how many times will the process enter the Get Transaction Data state?",
+    "options": {
+      "A": "1 time.",
+      "B": "2 times.",
+      "C": "The process will not enter the Get Transaction Data state because a linear process is not transactional.",
+      "D": "Until there are no more queue items left unprocessed in Orchestrator."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 78,
+    "question_text": "A developer is building a process that needs to click an element which requires a mouse hover to become visible. However, the element does not appear with the default click setting. The input method for the Click activity is Send Window Message Which property should the developer configure to be able to click the element?",
+    "options": {
+      "A": "The developer should change the input method to Hardware Events and the CursorMotionType to Smooth.",
+      "B": "The property AlterlfDisabled should be set to True",
+      "C": "The developer should change the input method to Simulate and the CursorMotionType to Instant.",
+      "D": "The property AlterlfDisabled should be set to False."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 79,
+    "question_text": "What are the three main components of UiPath Integration Service?",
+    "options": {
+      "A": "Connectors, API Tokens, Triggers.",
+      "B": "Connectors, Connections, Orchestrator.",
+      "C": "Connectors, Connections, Triggers.",
+      "D": "Activities, Connections, Triggers."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 80,
+    "question_text": "In a UiPath State Machine workflow, which section of State activity is used to specify conditional/triggers logic and multiple outgoing transitions in a state machine?",
+    "options": {
+      "A": "Triggers",
+      "B": "Entry",
+      "C": "Exit",
+      "D": "Transitions"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 81,
+    "question_text": "A developer examines a workflow in which filenames are stored within a collection. The collection is initialized with a single filename. When adding a new filename to the collection, which collection variable type will cause an error?",
+    "options": {
+      "A": "System.Collections.Generic. Dictionary",
+      "B": "System.Array",
+      "C": "System. Data. DataTable",
+      "D": "System.Collections.Generic.List"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 82,
+    "question_text": "A developer wants to add items to a list of strings using the Invoke Method activity. The list is declared as follows:",
+    "options": {
+      "A": "Colors will contain an item with the value \"Colors: Yellow\"",
+      "B": "Colors will contain an item with an empty value.",
+      "C": "Colors will contain an item with the value \"Yellow\".",
+      "D": "An exception will be thrown."
+    },
+    "answer": "C",
+    "images": [
+      "82.jpg"
+    ]
+  },
+  {
+    "question_number": 83,
+    "question_text": "A developer is building an automation which types text into a text file. The Activity Project Settings for UI Automation Modern activities are set as follows: What is the behavior of the Type Into activity when executing the workflow?",
+    "options": {
+      "A": "The activity will remove Multi Line in Run mode and a Single Line in Debug mode.",
+      "B": "The activity will use only properties set in Activity Project Settings.",
+      "C": "The activity will remove a Single Line in Run mode and in Debug mode.",
+      "D": "The activity will remove a Single Line in Run mode and Multi Line in Debug mode."
+    },
+    "answer": "D",
+    "images": [
+      "page_31_1.png"
+    ]
+  },
+  {
+    "question_number": 84,
+    "question_text": "While working in an RPA testing project, you encountered the following activity in one of the workflows included in the project. What action can you perform in your mocked file to replace the functionality of the MessageBox with a LogMessage during mock testing?",
+    "options": {
+      "A": "Remove mock activity.",
+      "B": "Synchronize mock.",
+      "C": "Surround activity with mock.",
+      "D": "Create mock workflow."
+    },
+    "answer": "C",
+    "images": [
+      "page_32_1.png"
+    ]
+  },
+  {
+    "question_number": 86,
+    "question_text": "What is the default priority value for the Job Priority field in UiPath Orchestrator when starting a job manually?",
+    "options": {
+      "A": "Medium",
+      "B": "Low",
+      "C": "Inherited",
+      "D": "High"
+    },
+    "answer": "A",
+    "images": [
+      "page_32_1.png"
+    ]
+  },
+  {
+    "question_number": 87,
+    "question_text": "Which of the following demonstrates the correct syntax for using the Vb.Net \"If\" Operator?",
+    "options": {
+      "A": "If(condition1, valuelfTrue, valuelfFalse)",
+      "B": "If(condition1, valuelfTrue) Elself(valuelfFalse)",
+      "C": "If condition1 Then valuelfTrue Elself valuelfFalse",
+      "D": "valuelfTrue If condition1 Else valuelfFalse"
+    },
+    "answer": "A",
+    "images": [
+      "page_32_1.png"
+    ]
+  },
+  {
+    "question_number": 90,
+    "question_text": "Data from an Excel file is read into a data table named \"dtEmployee\", as displayed in the following graphic: A developer needs to filter the data table to obtain all rows representing employees from the Finance and IT departments with a Salary under 30,000. Which expression yields the desired outcomes?",
+    "options": {
+      "A": "dtEmployee.Select(\"([Department]='IT' AND [Department]='Finance') AND [Salary] < 30000\")",
+      "B": "dtEmployee.Select(\"[Department]='IT' OR [Department]='Finance' AND [Salary] < 30000\")",
+      "C": "dtEmployee.Select(\"([Department]='IT' OR [Department]='Finance') AND [Salary] < 30000\")",
+      "D": "dtEmployee.Select(\"[Department]='IT' OR [Department]='Finance' OR [Salary] < 30000\")"
+    },
+    "answer": "C",
+    "images": [
+      "page_33_1.png"
+    ]
+  },
+  {
+    "question_number": 91,
+    "question_text": "Where is the TransactionNumber incremented in the REFramework?",
+    "options": {
+      "A": "Only in the SetTransactionStatus.xaml workflow.",
+      "B": "In the End Process state in the Finally section of the Try Catch activity.",
+      "C": "In the RetryCurrentTransaction.xaml workflow and in the SetTransactionStatus.xaml workflow.",
+      "D": "In the New Transaction transition."
+    },
+    "answer": "C",
+    "images": [
+      "page_33_1.png"
+    ]
+  },
+  {
+    "question_number": 92,
+    "question_text": "What is the output type returned when using a Get Test Data Queue Item activity?",
+    "options": {
+      "A": "Dictionary",
+      "B": "Dictionary",
+      "C": "Object",
+      "D": "Queueltem"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 93,
+    "question_text": "A developer is building an automation that must interact with a destination remote computer reached by jumping through multiple RDP connections, as described by the following scenario: - The Robot is installed on Machine A, which connects through RDP to Machine B. - From Machine B another RDP connection is opened to Machine C, where the automation must be performed. Which of the following scenarios is appropriate for the developer who wants to use UI Automation activities?",
+    "options": {
+      "A": "Ul Automation can be used and the following are prerequisites:Machine A - install RDP extension.Machine B - no requirement.Machine C - install RemoteRuntime.msi.",
+      "B": "UI Automation can be used and the following are prerequisites:Machine A - norequirement.Machine B - no requirement.Machine C - install RemoteRuntime.msi.",
+      "C": "UI Automation can be used and the following are prerequisites:Machine A - install RDP extension.Machine B - install RDP extension and RemoteRuntime.msi.Machine C - install RemoteRuntime.msi.",
+      "D": "UI Automation can be used and the following are prerequisites:Machine A - install RDP extension.Machine B - install RemoteRuntime.msi.Machine C - install RemoteRuntime.msi."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 94,
+    "question_text": "A developer implemented a process using the Robotic Enterprise Framework and an Orchestrator queue. The MaxRetryNumber from the \"Config.xlsx\" file is set to \"1\" and the Max # of retries from the Queue settings from Orchestrator is set to \"2\". At runtime, the first transaction item throws a Business Exception. How many times will the transaction be retried?",
+    "options": {
+      "A": "The transaction will be retried only one time.",
+      "B": "The transaction will not be retried.",
+      "C": "The transaction will be retried 2 times.",
+      "D": "The transaction will be retried multiple times, until it will be processed successfully."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 95,
+    "question_text": "What is the recommended approach for handling tabular data when building a REFramework transactional project in UiPath?",
+    "options": {
+      "A": "Implement custom activities to handle the tabular data.",
+      "B": "Convert the tabular data into a string format and store it in a single variable.",
+      "C": "Use separate variables to store each column of the tabular data.",
+      "D": "Utilize a DataTable variable to store and process the tabular data."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 96,
+    "question_text": "When a developer runs a process using the REFramework, with the process utilizing Orchestrator queues and a queue already created with the Name provided and the Auto Retry function disabled, which states will be executed without errors?",
+    "options": {
+      "A": "Initialization -> Process Transaction -> End Process",
+      "B": "Initialization -> Get Transaction Data -> Process Transaction -> End Process",
+      "C": "Initialization -> Get Transaction Data -> End Process",
+      "D": "Initialization -> End Process"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 97,
+    "question_text": "What happens when closing a Remote Debugging Connection while a debugging execution is in progress?",
+    "options": {
+      "A": "Debugging execution stops gracefully, then the connection is closed.",
+      "B": "The remote robot continues the execution after Studio closes the connection.",
+      "C": "It is not possible to close the connection while debugging is in progress.",
+      "D": "Debugging execution ends in exception, then the connection is closed."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 99,
+    "question_text": "Which of the following statements is true about the existing UiPath Studio installation packages?",
+    "options": {
+      "A": "The Attended Robot installation package installs only UiPath Studio, and Robot.",
+      "B": "The Attended Robot installation package installs only the UiPath Robot.",
+      "C": "The Unattended Robot installation package installs only UiPath Studio, Assistant, and Robot.",
+      "D": "The Automation Developer installation package installs only UiPath Studio, Assistant, and Robot."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 100,
+    "question_text": "What is a pre-requisite for running functional test cases in REFramework?",
+    "options": {
+      "A": "Invoke Process XAML file",
+      "B": "Invoke InitAllSettings XAML file",
+      "C": "Invoke SetTransactionStatus XAML file",
+      "D": "Invoke Main XAML file"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 101,
+    "question_text": "Where in the REFramework template project is the \"SetTransactionStatus.xaml\" invoked?",
+    "options": {
+      "A": "In the Finally section of the Try Catch activity in the Process Transaction state.",
+      "B": "In the Try section of the Try Catch activity in the End Process state.",
+      "C": "In the Try and Catches sections of the Try Catch activity in the Process Transaction state.",
+      "D": "In the Catches section of the Try Catch activity in the Process Transaction state."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 102,
+    "question_text": "What is the best method for passing data across activities within workflows?",
+    "options": {
+      "A": "Arguments",
+      "B": "Variables",
+      "C": "Namespaces",
+      "D": "Properties"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 103,
+    "question_text": "During the unattended robot setup for a self-hosted machine, what must be available in order to assign a new machine template?",
+    "options": {
+      "A": "You need to have at least one unallocated Production (Unattended) runtime available to assign it to the template.",
+      "B": "You must ensure the Credential Store is empty before assigning the machine template.",
+      "C": "You need to have at least one available serverless machine to link it with the new template.",
+      "D": "You must first create a new folder to store the machine template credentials."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 104,
+    "question_text": "What happens when attempting to publish a process with a validation error from UiPath Studio to Orchestrator?",
+    "options": {
+      "A": "The process will be successfully published to Orchestrator, and the robot will throw a runtime error whenever the process is executed.",
+      "B": "The robot will automatically set the \"ContinueOnError\" property to \"True\" for all the activities having validation errors, and the process will be successfully published to Orchestrator.",
+      "C": "The process will be successfully published to Orchestrator, it will appear in UiPath Assistant, but it cannot be run.",
+      "D": "The process will not be successfully published to Orchestrator."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 105,
+    "question_text": "Which of the following actions can be performed from the Tenant context in UiPath Orchestrator?",
+    "options": {
+      "A": "Manage Assets and Storage Buckets for a specific folder.",
+      "B": "Manage tenant-level entities, licenses, and settings.",
+      "C": "Access Test Sets, Test Cases, and Test Executions tabs for specific folders.",
+      "D": "Assign Folder roles and Mixed roles from the Folders page or from the folder’s Settings page."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 106,
+    "question_text": "Following best practices, which activity is recommended for a developer to generate separate sets of actions for each vendor when developing a process that performs background verification for documents from 10 distinct vendors, each with varying document formats and requiring unique processing?",
+    "options": {
+      "A": "For Each",
+      "B": "Do While",
+      "C": "Flow Decision",
+      "D": "Flow Switch"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 107,
+    "question_text": "What happens to the generated variable when you manually create an output variable in the output field in UiPath Studio?",
+    "options": {
+      "A": "The generated variable will be copied and stored for future use.",
+      "B": "The activity that uses the manually created variable will be deleted.",
+      "C": "The manually created variable will be overridden by the generated variable.",
+      "D": "It will replace the generated variable with the variable that you created."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 108,
+    "question_text": "A developer is working on a project that uses Git for source control. A fellow team member seeks to compare two versions of a specific workflow within the project. Which option in UiPath Studio offers this functionality?",
+    "options": {
+      "A": "Show History",
+      "B": "Push",
+      "C": "Checkout Branch",
+      "D": "Pull (Rebase)"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 109,
+    "question_text": "What is the best way to store credential information used in a UiPath automation project?",
+    "options": {
+      "A": "Store the username and password as hardcoded values with the Private option enabled on activities.",
+      "B": "Store the username and password in a Config.xlsx Excel file in the Studio project folder.",
+      "C": "Store the username and password in a local file on the robot's local machine.",
+      "D": "Store the username and password in a single Orchestrator asset."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 110,
+    "question_text": "You want to automate document processing tasks such as extracting and validating data from multiple documents in an online service. How can you achieve this using UiPath Studio Web?",
+    "options": {
+      "A": "Use the Document Understanding feature in Studio Web to extract, process, and validate documents.",
+      "B": "Rely on the native data export functions of the online service to automate document processing without using Studio Web.",
+      "C": "Automate manual data entry by creating a loop in Studio Web to input document details into a spreadsheet.",
+      "D": "Build a custom script in Studio Web using programming code to extract and validate data from documents."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 111,
+    "question_text": "What tool or method should be utilized inside UiPath Studio to assess the similarities between two files within the same automation project?",
+    "options": {
+      "A": "Manage Packages",
+      "B": "Global Exception Handler",
+      "C": "Compare Files",
+      "D": "Workflow Analyzer"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 112,
+    "question_text": "A project contains a Try Catch activity in the \"Main.xaml\" workflow. In the Catches block, there is a Rethrow activity. The process is started from Orchestrator and an exception is caught in the Try section. What is the expected result?",
+    "options": {
+      "A": "Job is completed with a \"Stopped\" state.",
+      "B": "Job is completed with a \"Faulted\" state.",
+      "C": "Job is completed with a \"Successful\" state.",
+      "D": "Exception pop-up is displayed on the robot machine."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 113,
+    "question_text": "What activity from the Microsoft 365 package should be used to share a SharePoint file URL with specific permissions to a specific user?",
+    "options": {
+      "A": "Upload File",
+      "B": "Move File/Folder",
+      "C": "Get File/Folder",
+      "D": "Share File/Folder"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 114,
+    "question_text": "In a project involving an Orchestrator queue, a developer needs to extract the two values from the ItemInformation fields of each QueueItem object. How can those fields be extracted from the variable?",
+    "options": {
+      "A": "Use the SpecificContent property and supply the name of the field as the Key.",
+      "B": "Assign output variables for each field in the Add Queue Item activity.",
+      "C": "Use a Get Transaction Item activity for each ItemInformation field.",
+      "D": "Use a Get Asset activity for each ItemInformation field."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 115,
+    "question_text": "What should be done if an anchor is not automatically added when indicating an element and duplicates are found?",
+    "options": {
+      "A": "Rely on the fuzzy selector to identify the desired element on the screen.",
+      "B": "Only unique elements will be found.",
+      "C": "Select all the target methods.",
+      "D": "Click a nearby element that helps identify the target to add it as an anchor."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 116,
+    "question_text": "While creating a process automation pipeline, what process attribute should be avoided to ensure there are minimal or no automation maintenance requirements?",
+    "options": {
+      "A": "Frequent business logic change.",
+      "B": "The process is prone to human error.",
+      "C": "High process run time.",
+      "D": "The process requires exception handling."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 117,
+    "question_text": "A developer is designing a project where emails containing different employee IDs are sent to the process owner for each completed transaction. The process owner changes only once per year. Which values should be designated as Orchestrator Queues versus Assets?",
+    "options": {
+      "A": "Process Owner Email as an Orchestrator Asset and Employee ID as an Orchestrator Asset.",
+      "B": "Process Owner Email as a field in the Queue Item and Employee ID as a field in the Queue Item.",
+      "C": "Process Owner Email as a field in the Queue Item and Employee ID as an Orchestrator Asset.",
+      "D": "Process Owner Email as an Orchestrator Asset and Employee ID as a field in the Queue Item."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 118,
+    "question_text": "Which are the most common challenges in an automation project implementation?",
+    "options": {
+      "A": "Unorganized implementation teams and lack of automation maturity.",
+      "B": "Expectation setting, scope creep, and access delays.",
+      "C": "Budget constraints and resource limitations.",
+      "D": "User Acceptance Testing delays and customer availability."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 119,
+    "question_text": "Which output method should be used to extract hidden text from a PDF file?",
+    "options": {
+      "A": "Native only.",
+      "B": "FullText only.",
+      "C": "FullText and Native.",
+      "D": "OCR."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 120,
+    "question_text": "What is the function of the Immediate Panel in UiPath Studio during the debugging process?",
+    "options": {
+      "A": "Inspecting data at a certain point during debugging by evaluating variables, arguments, or statements.",
+      "B": "Displaying the next activity to be executed and its parent containers when the project is paused in debugging.",
+      "C": "Displaying the performance analysis of all the operations, showing the execution time of each activity.",
+      "D": "Displaying the execution process and allowing the modification of variable and argument values."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 121,
+    "question_text": "How do you correctly create an array of strings containing the folder names from the variable FullFilePath = \"C:\\\\Users\\\\UiPathRobot\\\\Documents\\\\Technologies\"?",
+    "options": {
+      "A": "String.Replace('\"', FullFilePath)",
+      "B": "String.Replace(FullFilePath, ‘\"’)",
+      "C": "Split(FullFilePath, \"\\\\\")",
+      "D": "Split(\"\", FullFilePath)"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 122,
+    "question_text": "Which activity should be used to add data in a Microsoft Excel spreadsheet without overwriting any existing information?",
+    "options": {
+      "A": "Write Range",
+      "B": "Read Range",
+      "C": "Write Cell",
+      "D": "Append Range"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 123,
+    "question_text": "What is the main advantage of using the \"Indicate in Excel\" functionality when working with Excel activities?",
+    "options": {
+      "A": "It automatically imports Excel's built-in functions into Studio for use in various activities.",
+      "B": "It allows users to directly input data into cells of the targeted Excel worksheet.",
+      "C": "It enables users to visually select cells, ranges, or tables in the Excel file to be used as data sources.",
+      "D": "It generates a list of suggestions for optimizing and enhancing the performance of Excel-related automations."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 124,
+    "question_text": "Within the UiPath Ecosystem, which component is responsible for providing a dedicated space to share and reuse pre-built workflows, components, and automation solutions, thus increasing efficiency and reducing development time?",
+    "options": {
+      "A": "UiPath Assistant",
+      "B": "UiPath Marketplace",
+      "C": "UiPath Orchestrator",
+      "D": "UiPath Studio"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 125,
+    "question_text": "What is the primary responsibility of an automation business analyst in the Process Analysis phase of automation implementation?",
+    "options": {
+      "A": "Analyzing the chosen process in its AS-IS state and starting the Process Definition Document (PDD) creation.",
+      "B": "Ensuring a proper handover of the compiled documents to the development team.",
+      "C": "Defining and finalizing the TO-BE process.",
+      "D": "Assisting the clients in the creation of test cases and scenarios."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 126,
+    "question_text": "What is the expected behavior when execution is started from UiPath Studio in Debug mode with a breakpoint on a Type Into activity?",
+    "options": {
+      "A": "The execution pauses for 5 seconds when it encounters the breakpoint.",
+      "B": "The execution ignores the breakpoint.",
+      "C": "The execution pauses until the user clicks the Continue button.",
+      "D": "The execution throws an exception."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 127,
+    "question_text": "In a process, a variable called 'Timestamp' of type DateTime is used. The developer wants to print the variable in the format \"yyyy-MM-dd hh:mm\". Which expression should be used?",
+    "options": {
+      "A": "Timestamp.ToDateTime(\"yyyy-MM-dd hh:mm\")",
+      "B": "Timestamp.\"dd-MM-yyyy\"",
+      "C": "Timestamp.ToString(\"yyyy-MM-dd hh:mm\")",
+      "D": "Timestamp.ToString(), \"yyyy-MM-dd hh:mm\""
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 128,
+    "question_text": "Which of the following properties can be modified once global constants and variables are created?",
+    "options": {
+      "A": "Value",
+      "B": "Data Type",
+      "C": "Scope",
+      "D": "Name"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 129,
+    "question_text": "From a governance perspective, what is the most suitable way to share a library with your teammates within an organization using UiPath?",
+    "options": {
+      "A": "Share the library project folder manually with your teammates.",
+      "B": "Publish the library to Orchestrator or a local/remote feed.",
+      "C": "Save the library in a shared network folder and ask your teammates to import it.",
+      "D": "Upload the library to the cloud and provide access credentials to your teammates."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 130,
+    "question_text": "When would you need to manually add multiple anchors to a UI element while creating a descriptor in UiPath?",
+    "options": {
+      "A": "When multiple similar elements, such as duplicate text boxes with identical labels, need to be distinguished by adding both the label and a section title as anchors.",
+      "B": "When a single anchor is found automatically and it perfectly identifies the target element without duplicates.",
+      "C": "When the target element is unique, but the strict selector is enabled as a targeting method.",
+      "D": "When the target is an image element that always has a single text label anchor below it."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 131,
+    "question_text": "In a UiPath Studio project, what is the broadest scope a variable can have?",
+    "options": {
+      "A": "Within the surrounding \"Do\" or \"Body\" sequence.",
+      "B": "Outermost container in the current XAML project file.",
+      "C": "Global, available in the entire project.",
+      "D": "Within the activity in which it is defined."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 132,
+    "question_text": "A developer wants to retrieve the value of a column from a DataRow object. Which activity can be used?",
+    "options": {
+      "A": "Get Row Item",
+      "B": "Get from Collection",
+      "C": "For Each Row in Data Table",
+      "D": "Lookup Data Table"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 133,
+    "question_text": "A developer wants to create a process that interacts with a minimized window. However, when the process is executed, the robot is not able to click on a button inside the application. Which click activity property configuration would cause the automation to run only on foreground windows?",
+    "options": {
+      "A": "Click Type",
+      "B": "Input Element",
+      "C": "Key Modifiers",
+      "D": "Input Mode"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 134,
+    "question_text": "What can the administrator do to ensure organizations have control over how Studio Web is used?",
+    "options": {
+      "A": "Administrators can restrict the number of automations a user can create.",
+      "B": "Administrators can deploy governance policies from Automation Ops.",
+      "C": "Administrators can limit the use of Studio Web to certain operating systems.",
+      "D": "Administrators can manually approve every automation that a user creates."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 135,
+    "question_text": "If you rename an activity that has an automatically generated output variable in a cross-platform project, how does it impact the generated variable?",
+    "options": {
+      "A": "The generated variable is automatically renamed to match the new activity name.",
+      "B": "The generated variable is deleted when the activity is renamed.",
+      "C": "The renaming of the activity does not impact the generated variable.",
+      "D": "The generated variable loses its scope and must be redefined manually."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 136,
+    "question_text": "Which UiPath activity is best suited for making dynamic decisions in a workflow based on multiple possible values of a variable?",
+    "options": {
+      "A": "If Activity",
+      "B": "Flow Decision",
+      "C": "Flow Switch",
+      "D": "While Loop"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 137,
+    "question_text": "A developer needs to store a collection of unique email addresses while ensuring fast lookups. Which data structure is best suited for this task in UiPath?",
+    "options": {
+      "A": "Array",
+      "B": "List(Of String)",
+      "C": "Dictionary(Of String, Boolean)",
+      "D": "HashSet(Of String)"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 138,
+    "question_text": "Which type of automation is most suitable for extracting text from an image-based document in UiPath?",
+    "options": {
+      "A": "Screen Scraping",
+      "B": "OCR",
+      "C": "Regex",
+      "D": "String Manipulation"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 139,
+    "question_text": "How many elements does an array contain if it is declared as Dim arr(0 To 0) As String in UiPath?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "Undefined"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 140,
+    "question_text": "What happens when you select Cloud Project \\> Save to Cloud for a project in Studio Desktop that has changes in Studio Web?",
+    "options": {
+      "A": "An error message is displayed and the save operation fails.",
+      "B": "Changes in Studio Web are automatically replaced by desktop changes.",
+      "C": "The changes in both Studio Desktop and Studio Web will be merged.",
+      "D": "You must first confirm that you want to overwrite the remote changes."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 141,
+    "question_text": "A developer created a data table called \"DT\" using the Build Data Table activity as shown in the exhibit. What is the result of the expression, \"DT.Rows(0)(1).ToString + DT.Rows(1)(0).ToString\"?",
+    "options": {
+      "A": "MichaelClara",
+      "B": "2542",
+      "C": "Michael42",
+      "D": "42Clara"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 142,
+    "question_text": "What is the most efficient way to implement the behavior of monitoring an Outlook 365 email account and executing automation steps when a certain email is received?",
+    "options": {
+      "A": "Create a robot that periodically opens Outlook UI, scrapes received email information, opens and extracts data from matching criteria emails, initiates a new job, and continues email monitoring.",
+      "B": "Use the Office365 Email Monitoring Trigger and configure the filters.",
+      "C": "Use the Office365 Email Received Trigger and configure the filters.",
+      "D": "Create a robot that once every few minutes reads the emails from the account and if one matching the search criteria appears, it starts executing the automation steps."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 143,
+    "question_text": "A developer has extracted the date \"22-08-2022\" from an invoice and stored it in a variable of type String called \"ExtractedDate\". As part of the process, the developer needs to perform a comparison with a different date. Which expression should be used to convert \"ExtractedDate\" to a DateTime type?",
+    "options": {
+      "A": "DateTime.ParseExact(ExtractedDate, \"dd-MM-yyyy\", System.Globalization.CultureInfo.InvariantCulture)",
+      "B": "ExtractedDate.GetType",
+      "C": "DateTime.Compare(ExtractedDate, \"08-22-2022\", System.Globalization.CultureInfo.InvariantCulture)",
+      "D": "ExtractedDate.Equals(\"08-22-2022\", System.Globalization.CultureInfo.InvariantCulture)"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 144,
+    "question_text": "A developer needs to create a process for the Human Resources team. During the development, they try to run the workflow containing the following dictionary variable: What is the possible cause of the error?",
+    "options": {
+      "A": "The Dictionary was not initialized.",
+      "B": "The \"John\" key was not present in the dictionary.",
+      "C": "The assign's set value syntax should be PinMapping\\<\"John\"\\>.",
+      "D": "The assign's set value syntax should be PinMapping\\[\"John\"\\]."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 145,
+    "question_text": "Which property of the Check App State activity in UiPath is used to define the maximum wait time for the application state to change?",
+    "options": {
+      "A": "WaitTime",
+      "B": "RetryInterval",
+      "C": "Timeout",
+      "D": "Delay"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 146,
+    "question_text": "Which of the following statements accurately describes the function of the If activity in a workflow?",
+    "options": {
+      "A": "It evaluates a boolean condition and creates two separate branches for both true and false conditions, executing only one branch.",
+      "B": "It evaluates a boolean condition and runs the branch with the highest priority, regardless of the condition's truthiness.",
+      "C": "It evaluates a set of boolean conditions and branches the workflow execution to the first true condition encountered.",
+      "D": "It evaluates a boolean condition and creates a single branch that executes both true and false statements sequentially."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 147,
+    "question_text": "During which stage does an automation developer have the greatest contribution and responsibility?",
+    "options": {
+      "A": "In the Solution Design, Development and Unit Testing, and Deployment and Hypercare stages.",
+      "B": "In the Process Analysis, Solution Design, and Development and Unit Testing stages.",
+      "C": "In the Discovery and Kickoff, Development and Unit Testing, and Deployment and Hypercare stages.",
+      "D": "In the Development and Unit Testing, Integration and UAT, and Deployment and Hypercare stages."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 148,
+    "question_text": "What is the ServiceNow Store?",
+    "options": {
+      "A": "Downloadable content ServiceNow script archive",
+      "B": "The source for ServiceNow Community-created developer content",
+      "C": "Marketplace for free and paid certified ServiceNow applications and integrations",
+      "D": "Alternate name for the ServiceNow Developer Share site"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 149,
+    "question_text": "Application developers can specify which ServiceNow page a user sees after submitting a new record using the Record Producer UI. How is the page specified?",
+    "options": {
+      "A": "Configure the page in the Module that opens the Record Producer UI",
+      "B": "Create an application property to store the URL",
+      "C": "Write a script in the Record Producer’s Script field: producer.redirect = \"\\<URL\\>\";",
+      "D": "Write an after Business Rule script for the Record Producer's table: window.redirect = \"\\<URL\\>\";"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 150,
+    "question_text": "Which server-side API debug log method is available for scoped applications?",
+    "options": {
+      "A": "gs.log()",
+      "B": "gs.print()",
+      "C": "gs.debugLog()",
+      "D": "gs.info()"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 151,
+    "question_text": "Which actions can a Business Rule take without scripting?",
+    "options": {
+      "A": "Set field values and query the database",
+      "B": "Set field values and write to the system log",
+      "C": "Set field values and add message",
+      "D": "Set field values and generate an event"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 152,
+    "question_text": "What are Application Files in a ServiceNow application?",
+    "options": {
+      "A": "CSV files containing data imported into an application",
+      "B": "XML exports of an application's Update Set",
+      "C": "An XML export of an application's table records",
+      "D": "ServiceNow artifacts comprising an application"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 153,
+    "question_text": "Which is an example of when an application might use a Scheduled Script Execution (Scheduled Job)?",
+    "options": {
+      "A": "To display a custom welcome message when a user logs in.",
+      "B": "The application needs to query the database every day to look for unassigned records.",
+      "C": "The application needs to run a client-side script at the same time every day.",
+      "D": "To validate form input fields before a record is submitted."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 154,
+    "question_text": "What is the Endpoint when configuring a REST Message?",
+    "options": {
+      "A": "The provider response indicates there is no data to send back",
+      "B": "The URI of the data to be accessed, queried, or modified",
+      "C": "The command to the REST script to stop execution",
+      "D": "The URI of the Webserver"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 155,
+    "question_text": "Which one of the following is a benefit of creating an Application Properties page for each application you develop?",
+    "options": {
+      "A": "Application Properties allow a developer to override the application properties inherited from ServiceNow",
+      "B": "Application users know to go to the Application Properties page to change the appearance of an application",
+      "C": "An Application Properties page is a good landing page for an application",
+      "D": "Application Properties allow a developer or admin to make changes to an application's behavior without modifying application artifacts"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 156,
+    "question_text": "Server-side scripts manage what?",
+    "options": {
+      "A": "User access",
+      "B": "Playbook access",
+      "C": "Forms and Fields",
+      "D": "Database and backend"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 157,
+    "question_text": "You are developing the MyApp application that has a table, Table A. When the MyApp application is installed on another instance, you want Table A's records to be installed as part of the application. Table A's records will be installed when:",
+    "options": {
+      "A": "Table A is not included in the System Clone \\> Exclude Tables list",
+      "B": "Table A is active and extends the Task table",
+      "C": "Table A has an automatic number counter for new records and table property Includes \\_data is set to True.",
+      "D": "Table A's records are added to the application record using the Create Application Files feature."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 158,
+    "question_text": "What component of the UiPath Ecosystem allows a user to post questions or answers on RPA topics?",
+    "options": {
+      "A": "UiPath Marketplace",
+      "B": "UiPath Studio",
+      "C": "UiPath Community",
+      "D": "UiPath Forum"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 159,
+    "question_text": "Which of the following statements is true about Global Variables?",
+    "options": {
+      "A": "Global Variables values can be modified during the automation execution.",
+      "B": "Global Variables can be created from the Data Manager panel and from the Variables panel.",
+      "C": "Global Variables can be accessed only from the Main workflow.",
+      "D": "Global Variables have a Direction properly (In/Out)."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 160,
+    "question_text": "A developer created a DataTable called DT using the Build Data Table activity as shown in the exhibit.",
+    "options": {
+      "A": "MichaelClara",
+      "B": "42Clara",
+      "C": "42Michael",
+      "D": "25Clara"
+    },
+    "answer": "B",
+    "images": [
+      "160.jpg"
+    ]
+  },
+  {
+    "question_number": 161,
+    "question_text": "A developer is building a robot to validate that the birth date is in the correct format within the submitted forms. Which method or activity is best-suited to validate the format?",
+    "options": {
+      "A": "String Method: Contains",
+      "B": "Activity Replace",
+      "C": "String Method: Equals",
+      "D": "Activity. Is Match"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 162,
+    "question_text": "A developer wants to create a process using a Flow Switch activity. What is a feature of this activity?",
+    "options": {
+      "A": "Supports up to three expressions by default",
+      "B": "Two Default cases can be defined",
+      "C": "Default case is executed before the expression is evaluated",
+      "D": "Default case is executed if no cases match the expression"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 163,
+    "question_text": "During a code review, a developer discovered that the variable names did not follow best practices in an automation project. What happens when the developer updates the names of the variables in the Variables panel?",
+    "options": {
+      "A": "Only String variable names are automatically updated in the activities in the current file",
+      "B": "Variable names are updated in the panel but must be manually updated in all Ul Automation activities that use them",
+      "C": "All variable names are automatically updated in the activities in the current file",
+      "D": "Variable names are updated in the panel but must be manually updated in all Image activities that use them"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 164,
+    "question_text": "A developer published a process to UiPath Orchestrator with only the Mam.xaml workflow file. There is one \"In\" argument of type String in the Main.xaml file with a default value of String.Empty When running the process from the Start Job window in Orchestrator what is the value of the argument at runtime?",
+    "options": {
+      "A": "Only the default value of String.Empty will be used, overriding any values provided in Orchestrator",
+      "B": "An Input Dialog box will prompt the user to input a value and that value will be used",
+      "C": "Any input arguments provided in Orchestrator are used, otherwise the default value of String.Empty will be used",
+      "D": "A runtime error will occur as arguments are not allowed in the Main xaml file"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 165,
+    "question_text": "What differentiates a List type from an Array type?",
+    "options": {
+      "A": "List items can be accessed through an index but array items cannot.",
+      "B": "An array has a fixed, predefined number of elements while a list has a dynamic number of elements.",
+      "C": "A list can hold items of multiple data types at the same time while arrays cannot.",
+      "D": "Lists provide the option of looping through data while arrays do not."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 166,
+    "question_text": "Which of the following is a valid area/panel, from the UiPath Studio interface, from where a variable can be created?",
+    "options": {
+      "A": "Activities Panel",
+      "B": "Locals Panel",
+      "C": "Data Manager Area",
+      "D": "Project Panel"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 167,
+    "question_text": "A developer is automating the process of entering sensitive information into text input fields that are constantly changing their position. Each text input field has a corresponding text label. The developer decides to automate the process by using Modern UI Activities with anchors. Which activities should be used?",
+    "options": {
+      "A": "Find Text Position activity as the anchor and Type Secure Text activity as the action.",
+      "B": "Type Into activity with a valid anchor and the input text provided in the Secure Text property.",
+      "C": "Find Text Position activity as the anchor and Set Text activity as the action.",
+      "D": "Type Into activity with a valid anchor and the input text provided in the Text property."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 168,
+    "question_text": "Suppose a developer is working with a 2023 yearly calendar. To expand the calendar into a monthly view, the developer must always click on the 15th day of the current month and add an event. The selector for the Event Date Element activity in March is presented as follows: <wnd app='applicationframehost.exe' title='Month View - Calendar' /><uia cls='Day' name='15 March 2023' /> How should the selector be altered to guarantee that it clicks on the 15th of the ongoing month?",
+    "options": {
+      "A": "<wnd app='applicationframehost.exe' title='Month View - Calendar' /><uia cls='Day' name='15 * 2023' />",
+      "B": "<wnd app='applicationframehost.exe' title='Month View - Calendar' /><uia cls='Day' name='15* 20 ?? ' />",
+      "C": "<wnd app='applicationframehost.exe' title='Month View - Calendar' /><uia cls='Day' name='*15*' />",
+      "D": "<wnd app='applicationframehost.exe' title='Month View - Calendar' /><uia cls='Day' name='15 ? 20 ?? ' />"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 169,
+    "question_text": "Which of the following functionalities does UiPath Assistant provide?",
+    "options": {
+      "A": "Developing automation workflows in UiPath Studio.",
+      "B": "Running, managing, and organizing automation workflows on the user's machine.",
+      "C": "Scheduling and monitoring robot processes in Orchestrator.",
+      "D": "Analyzing processes to determine optimal automation solutions."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 170,
+    "question_text": "A developer wants to run two processes on the same machine, the first process contains only HTTP Request activities and the second one performs UI Automation. What option needs to be enabled on the first process in order to ensure that the processes can run concurrently on the same machine?",
+    "options": {
+      "A": "Starts in Background",
+      "B": "Attended Automation",
+      "C": "Disable Pause",
+      "D": "Supports Persistence"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 171,
+    "question_text": "A developer is working with an application that allows all types of input methods for the Type Into activity. Which property should be enabled for the fastest execution?",
+    "options": {
+      "A": "Click before typing",
+      "B": "Empty field",
+      "C": "Simulate",
+      "D": "Window Messages"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 172,
+    "question_text": "Where can a process be found, after being published from UiPath Studio and deployed as an automation in Orchestrator?",
+    "options": {
+      "A": "Manage Packages",
+      "B": "UiPath Assistant",
+      "C": "Resources Panel",
+      "D": "Snippets Panel"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 173,
+    "question_text": "Which Control Flow activity is suitable for a developer who needs to assess the value of a counter before executing the loop's body in a workflow?",
+    "options": {
+      "A": "Do While",
+      "B": "Switch",
+      "C": ")While",
+      "D": "If"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 174,
+    "question_text": "What happens to existing project dependencies in UiPath Studio when converting a Windows-Legacy project to Windows?",
+    "options": {
+      "A": "Project dependencies are updated to the highest available version.",
+      "B": "Project dependencies are completely removed.",
+      "C": "Project dependencies remain unchanged.",
+      "D": "Project dependencies are marked as unresolved."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 175,
+    "question_text": "Which of the following statements is true about Global Constants?",
+    "options": {
+      "A": "Global Constants can be created only from the Data Manager panel.",
+      "B": "Global Constants values can be modified during the automation execution.",
+      "C": "Global Constants have a Direction property (In/Out).",
+      "D": "Global Constants can be created from the Data Manager panel and from the Variables panel."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 176,
+    "question_text": "Where can you find a list of all the activities that support the Windows compatibility?",
+    "options": {
+      "A": "In the converted project's settings.",
+      "B": "In the Official feed documentation.",
+      "C": "In the Activities Guide.",
+      "D": "In the Windows-Legacy project configuration."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 177,
+    "question_text": "What role does the automation developer play in understanding business processes?",
+    "options": {
+      "A": "Undertaking smaller projects independently.",
+      "B": "Collaborating with automation business analysts on technical skills.",
+      "C": "Creating complex written documents for procedures.",
+      "D": "Quickly understanding inputs, outputs, and decision points."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 178,
+    "question_text": "Which activity is used to archive a set of files and send them as an attachment in an email?",
+    "options": {
+      "A": "Create Folder",
+      "B": "Archive Files",
+      "C": "Compress/Zip Files",
+      "D": "Create File"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 179,
+    "question_text": "Which of the following workflow names is correct, based on best practices?",
+    "options": {
+      "A": "Transactionstatus",
+      "B": "Workflow1",
+      "C": "creation_of_file",
+      "D": "ScrapeFilteredStocks"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 180,
+    "question_text": "What is the main benefit of importing profiling sessions?",
+    "options": {
+      "A": "Enables the analysis of potential flow issues.",
+      "B": "Provides context menu options for profiling actions.",
+      "C": "Disables focus on imported profiling sessions.",
+      "D": "Disables the analysis of potential flow issues."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 181,
+    "question_text": "What are the distinctions between arguments and variables?",
+    "options": {
+      "A": "Variables pass data between activities inside the same workflow. Arguments pass data between workflow files.",
+      "B": "Variables always have a direction. Arguments can be assigned to a variable value.",
+      "C": "Variables pass data between workflow files. Arguments pass data between activities inside the same workflow.",
+      "D": "Variables must be assigned to an argument value. Arguments always have a direction."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 182,
+    "question_text": "During which stage does an automation developer have the least contribution and responsibility?",
+    "options": {
+      "A": "In the Discovery and Kickoff, Process Analysis, and Solution Design stages.",
+      "B": "In the Development and Unit Testing, Integration and UAT, and Deployment and Hypercare stages.",
+      "C": "In the Solution Design, Development and Unit Testing, and Deployment and Hypercare stages.",
+      "D": "In the Discovery and Kickoff, Development and Unit Testing, and Deployment and Hypercare stages."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 183,
+    "question_text": "Which dependencies are automatically installed when a developer starts a blank process in UiPath Studio?",
+    "options": {
+      "A": "UiPath.Database.Activities and UiPath.Form.Activities.",
+      "B": "UiPath.Python.Activities and UiPath.Word.Activities.",
+      "C": "UiPath.System.Activities, UiPath.Excel.Activities, UiPath.Mail.Activities, UiPath.UIAutomation.Activities and UiPath. Testing.Activities.",
+      "D": "UiPath.PDF.Activities and UiPath. Terminal.Activities."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 184,
+    "question_text": "What will be the outcome when executing a Try Catch activity with a sequence placed within the Try section and no Catches section present?",
+    "options": {
+      "A": "In case of an exception, a System Exception will be caught by default.",
+      "B": "Due to a validation error, the workflow will not execute.",
+      "C": "Process execution will terminate only if the sequence throws an exception.",
+      "D": "The sequence will result in a runtime error."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 185,
+    "question_text": "Upon extracting data from a website, a developer saves it in three variables: \"FirstName\", \"LastName\", and \"City\". The developer intends to store these three String variables in a fixed-size data structure called \"UserData\", to be utilized later within another workflow in the process. Considering best practices, which data structure and assignment should be used?",
+    "options": {
+      "A": "UserData is of type List<Object>UserData = New List(Of Object) ({ FirstName, LastName, City })",
+      "B": "UserData is of type Object[]UserData = {FirstName, LastName, City}",
+      "C": "UserData is of type List<String>UserData = New List(Of String) ({ FirstName, LastName, City })",
+      "D": "UserData is of type String[]UserData = {FirstName, LastName, City}"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 186,
+    "question_text": "A developer has published a new library from UiPath Studio to the Orchestrator feed. Another developer on the team is connected to the same Orchestrator where the library has been published. What steps are necessary for adding this library as a dependency in a project?",
+    "options": {
+      "A": "Open the Manage Packages Window and ensure the Orchestrator feed is enabled. In the Imports Panel in Studio, search for the package by name, and then install the package.",
+      "B": "Open the Manage Packages Window and install UiPath.System.Activities. Drag and Drop the Invoke Com Method activity and input the library name as a parameter.",
+      "C": "Open the Manage Packages Window and install UiPath.System.Activities. Drag and Drop the Invoke Method activity and input the library name as a parameter.",
+      "D": "Open the Manage Packages Window and ensure the Orchestrator feed is enabled. Search for the package by name in the Search bar and then install the package."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 187,
+    "question_text": "In what situations is it appropriate to use a static selector instead of a dynamic selector'?",
+    "options": {
+      "A": "When the automation requires high flexibility.",
+      "B": "When the automation process requires better performance.",
+      "C": "When the target element's properties change frequently.",
+      "D": "When the target element's attributes remain constant and do not change during runtime."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 188,
+    "question_text": "A developer is automating an invoice process for the finance department using a Dispatcher and Performer model with access to Orchestrator. New invoices are added to a shared folder each morning. Each invoice needs to be processed separately in the system, as a single unit of work. After each invoice is processed in the system, the system output ID must be emailed to the finance team email address. How should the developer store the invoice data in Orchestrator?",
+    "options": {
+      "A": "Upload individual invoice data as Specific Data in Queue Items and Create an asset for the finance team email address.",
+      "B": "Create an asset for each piece of invoice data as well as for the finance team email address.",
+      "C": "Upload individual invoice data and the finance team email address as Specific Data in Queue Items.",
+      "D": "Upload the finance team email address as Specific Data in Queue Items and Create an asset for each individual invoice data field."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 189,
+    "question_text": "Which set of properties, methods, or activities enables the developer to obtain a subset of data from a data table called \"dt\"?",
+    "options": {
+      "A": "Output Data TableLookup Data TableBuild Data TableMerge Data Table",
+      "B": "Sort Data TableJoin Data TablesGet Row Item",
+      "C": "dt.Rows(1 .. 5)Remove Data Row activity",
+      "D": "Filter Data Tabledt.Selectdt.AsEnumerable().Where"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 190,
+    "question_text": "A developer is working with a Purchase Order automation process. The number of shipped containers and the number of items in each container are extracted in two strings, \"ShippedContainers\" and \"ItemsPerContainer\". The robot must calculate the total number of items in all shipped containers, as an Integer. Which expression is suitable for calculating the total number of boxes?",
+    "options": {
+      "A": "String. Tolnt32(ShippedContainers) \\* String. Tolnt32(ItemsPerContainer)",
+      "B": "Convert. Tolnt32(ShippedContainers) \\* Convert.Tolnt32(ItemsPerContainer)",
+      "C": "Clnt(ShippedContainers \\* ItemsPerContainer)",
+      "D": "ShippedContainers. Tolnt32() \\* ItemsPerContainer.Tolnt32()"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 191,
+    "question_text": "How many Global Exception Handlers can be established per automation project, according to best practices?",
+    "options": {
+      "A": "A single one for the entire project.",
+      "B": "There is no limit.",
+      "C": "One for each workflow in the project.",
+      "D": "One for each activity in the project."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 192,
+    "question_text": "What is the purpose of Breakpoints when debugging a project in UiPath Studio?",
+    "options": {
+      "A": "To purposely pause the debugging process on an activity which may trigger execution issues.",
+      "B": "To automatically restart the debugging process when an error is encountered.",
+      "C": "To measure the execution time of each activity in the workflow.",
+      "D": "To export debugging results in different formats."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 193,
+    "question_text": "When choosing a process for automation, what factor contributes to its increased complexity?",
+    "options": {
+      "A": "Unstructured input data source.",
+      "B": "Standard desktop applications.",
+      "C": "Low number of decision points.",
+      "D": "Low number of steps required in the automation."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 194,
+    "question_text": "The \"Main.xaml\" file has an \"In\" argument of type String with a default value of \"String.Empty\". What is the runtime value of the argument when executing the process from the Start Job window in UiPath Orchestrator?",
+    "options": {
+      "A": "A runtime error will occur as arguments are not allowed in the \"Main.xaml\" file.",
+      "B": "Only the default value of \"String.Empty\" will be used, overriding any values provided in Orchestrator.",
+      "C": "@ If any input arguments are provided in Orchestrator, those values will be used; otherwise, the default value of \"String.Empty\" will be used.",
+      "D": "An Input Dialog box will prompt the user to input a value and that value will be used."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 195,
+    "question_text": "Which of the following is a characteristic of source control in UiPath Studio?",
+    "options": {
+      "A": "Connects the files in a single Studio project to different GIT remote repositories.",
+      "B": "Shows the history for all versions of a file in a Studio project.",
+      "C": "Analizes each file in a Studio project before publishing a package.",
+      "D": "Connects a single Studio project to multiple GIT remote repositories at the same time."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 196,
+    "question_text": "Which variable field is optional when creating a variable, in UiPath Studio?",
+    "options": {
+      "A": "Default",
+      "B": "Variable type",
+      "C": "Name",
+      "D": "Scope"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 197,
+    "question_text": "To read only the first page of a .pdf file using the Read PDF Text activity, what value should be entered into the Range property?",
+    "options": {
+      "A": "\"1\"",
+      "B": "“”",
+      "C": "1",
+      "D": "(0)"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 198,
+    "question_text": "A developer sets a breakpoint on one of the activities in the workflow. When deploying the code to production, the developer published the package and created a process in UiPath Orchestrator. At the time the process is executed in unattended mode from a UiPath Robot, what is the expected behavior?",
+    "options": {
+      "A": "Robot will crash and execution will stop because of the breakpoint.",
+      "B": "When encountering the breakpoint the execution will pause until it is resumed manually.",
+      "C": "Execution will proceed without taking into consideration the breakpoint.",
+      "D": "Execution will throw an exception because of the breakpoint."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 199,
+    "question_text": "1\\. Open the Web Browser. 2\\. Scrape the data. 3\\. Store the data in Microsoft Excel. 4\\. Close the Web Browser. In accordance with UiPath best practices, which section of the Try Catch activity ensures that Step 4 (closing the web browser) is executed regardless of any exceptions occurring in Step 2 (data scraping) or Step 3 (storing data in Microsoft Excel)?",
+    "options": {
+      "A": "Try Block",
+      "B": "Business Exception Catch Block",
+      "C": "Finally Block",
+      "D": "Application Exception Catch Block"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 200,
+    "question_text": "What are the differences between the Workbook Write Range and Excel Application Integration Write Range activities in writing a DataTable to an Excel file?",
+    "options": {
+      "A": "(Excel) Write Datatable to Excel activity only works in the background.(Workbook) Write Range activity requires that the file is not opened by the user before running.",
+      "B": "(Excel) Write Datatable to Excel activity only works in the foreground, visible to the user.(Workbook) Write Range activity only works in the background.",
+      "C": "(Excel) Write Datatable to Excel activity will create the file in the WorkbookPath property if it does not exist.(Workbook) Write Range activity can only be used when Excel is installed.",
+      "D": "(Excel) Write Datatable to Excel activity will execute correctly even if the file is opened by the user before running.(Workbook) Write Range activity will create the file in the WorkbookPath property if it does not exist."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 201,
+    "question_text": "Which activity should be used to iterate through all the files in a local folder?",
+    "options": {
+      "A": "For Each File in Folder",
+      "B": "For Each File Info",
+      "C": "For Each Row in Datatable",
+      "D": "Do For Each File"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 202,
+    "question_text": "During the debugging process, a developer paused the execution. To alter the characteristics of the ongoing flow and change the values of variables within the existing scope. which panel of the UiPath interface is recommended to be accessed?",
+    "options": {
+      "A": "Variables Panel",
+      "B": "Locals Panel",
+      "C": "Information Window",
+      "D": "Execution Flow Panel"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 203,
+    "question_text": "What is enabled by connecting UiPath Studio to Orchestrator?",
+    "options": {
+      "A": "Publishing automation packages to Orchestrator.",
+      "B": "Defining queues and arguments for use in automations.",
+      "C": "Generating API keys for use in integrations with third party apps.",
+      "D": "Creating an Object Repository of elements for use in automations."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 204,
+    "question_text": "What is the difference between the UiPath Studio and UiPath StudioX development profiles?",
+    "options": {
+      "A": "UiPath Studio allows the user to split the automation into smaller workflows that can be invoked, while StudioX doesn't offer this functionality.",
+      "B": "UiPath Studio is meant for business users looking to automate tasks for themselves and their immediate teams, while StudioX is meant for Automation developers.",
+      "C": "UiPath Studio can only build unattended automations, while StudioX can only build attended automations.",
+      "D": "UiPath Studio can save values into variables for later use, while StudioX doesn't offer this functionality."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 205,
+    "question_text": "What is the main difference between an array and a list in UiPath?",
+    "options": {
+      "A": "An array is a fixed-size collection of elements of the same type while a list is a dynamic-sized collection of elements of the same type,",
+      "B": "An array is a dynamic-sized collection of elements of the same type while a list is a fixed-size collection of elements of the same type.",
+      "C": "An array is a fixed-size collection of elements of different types while a list is a dynamic-sized collection of elements of the same type.",
+      "D": "An array is a fixed-size collection of elements of the same type while a list is a dynamic-sized collection of elements of different types."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 206,
+    "question_text": "What is a function of unattended robots?",
+    "options": {
+      "A": "Unattended robots must be triggered manually.",
+      "B": "Unattended robots can only work if they are not connected to Orchestrator.",
+      "C": "Unattended robots only run on a workstation operated by a human.",
+      "D": "Unattended robots can run independently without human interaction."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 207,
+    "question_text": "Which activity is part of the Modern Excel Activities in UiPath Studio?",
+    "options": {
+      "A": "Write Range",
+      "B": "Execute Macro",
+      "C": "Read Cell",
+      "D": "For Each Excel Row"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 208,
+    "question_text": "While working on a project that utilizes Object Repository, you have one linked Ul Element that is used across multiple activities. What needs to happen to edit a selector for only one activity without modifying it in Object Repository?",
+    "options": {
+      "A": "Unlink from Object Repository.",
+      "B": "Show in Object Repository.",
+      "C": "Edit target.",
+      "D": "Indicate target on screen."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 209,
+    "question_text": "What is the most appropriate way to convert a designed process into a template after completing the project?",
+    "options": {
+      "A": "Use the \"Save As\" option to save the project as a new file type and manually change the file extension to create a template.",
+      "B": "Use the Export as Template option from the UiPath Studio.",
+      "C": "Create a new Template and move the activities from the existing process to the new Template.",
+      "D": "There is no way the developer can do this."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 210,
+    "question_text": "A developer needs to create a workflow that manipulates items related to invoices inside a web application. The following selector represents a UI element inside an invoice represented by an 8-alphanumeric system-generated vendor tax ID. <html app='chrome.exe' title='ACME System - Invoice - RO123456' /><webctrl tag='DIV' aaname='RO123456\" class='InvoiceNumber' /> Assuming only the Vendor Tax ID value changes in the selector, what represents an example of a good selector that matches only specific invoices with the vendor tax ID defined in a pre-selected existing list?",
+    "options": {
+      "A": "<html app='chrome.exe' title='ACME System - Invoice - {{VendorTaxID})' /><webctrl tag='DIV' aaname='{{VendorTaxID})' class='InvoiceNumber' />Where VendorTaxID is a 8-alphanumeric element.",
+      "B": "<html app='chrome.exe' title='ACME System - Invoice - \" /><webctrl tag='DIV' aaname=' ** class='InvoiceNumber' />Where VendorTaxID is a 8-alphanumeric element.",
+      "C": "<html app='chrome.exe' title='ACME System - Invoice - RO123456' /><webctrl tag='DIV' aaname='({VendorTaxID}}' class='InvoiceNumber' />Where VendorTaxID is a 8-alphanumeric element.",
+      "D": "<html app='chrome.exe' title='ACME System - Invoice - RO123456' /><webctrl tag='DIV' aaname='RO123456' class='InvoiceNumber' />Where VendorTaxID is a 8-alphanumeric element."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 211,
+    "question_text": "What is a true statement regarding the characteristics of dictionaries in UiPath?",
+    "options": {
+      "A": "Dictionaries can have repeated keys.",
+      "B": "Dictionaries allow keys and values to be of different data types.",
+      "C": "Dictionaries must have unique values.",
+      "D": "Dictionaries provide automatic sorting of key-value pairs, ensuring efficient retrieval of data."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 212,
+    "question_text": "Which activity enables a developer to run three sequences asynchronously in the process they are developing?",
+    "options": {
+      "A": "Parallel",
+      "B": "Switch",
+      "C": "For Each",
+      "D": "Flow Switch"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 220,
+    "question_text": "Which compatibility option should be selected when creating a new project to use .NET 6 with Windows support?",
+    "options": {
+      "A": "Windows - Legacy",
+      "B": "Linux & MacOS",
+      "C": "Windows",
+      "D": "Cross-platform"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 221,
+    "question_text": "Which of the following is the correct method to manage assets for a specific folder in UiPath Orchestrator?",
+    "options": {
+      "A": "Open the folder's contextual menu by clicking the three-dot icon, then select \"Link Resources\" and choose \"Asset\".",
+      "B": "Select \"Tenant\" from the sidebar menu, then click the \"Assets\" tab.",
+      "C": "Navigate to \"Tenant\" \\> \"Folders\", choose the desired folder, and click the \"Manage Access\" tab.",
+      "D": "Select the folder from the sidebar menu, then click the \"Assets\" tab."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 222,
+    "question_text": "Which activity should the developer utilize in order to retrieve all UI elements from a form based on a filter criterion?",
+    "options": {
+      "A": "Get Ancestor",
+      "B": "Export UI Tree",
+      "C": "Find Element",
+      "D": "Find Children"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 224,
+    "question_text": "How can a user change the profile from UiPath Studio to UiPath StudioX from the backstage view?",
+    "options": {
+      "A": "By going to Home - Settings - Design - Change profile and clicking on the UiPath StudioX profile, then clicking \"Yes\" when prompted to restart the application.",
+      "B": "By going to Home - Tools - Design - Change profile and clicking on the UiPath StudioX profile, then clicking \"Yes\" when prompted to restart the application.",
+      "C": "By going to Home - Settings - License and profile - Change profile and clicking on the UiPath StudioX profile, then clicking \"Yes\" when prompted to restart the application.",
+      "D": "By going to Home - Settings - Locations - Change profile and clicking on the UiPath StudioX profile, then clicking \"Yes\" when prompted to restart the application."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 226,
+    "question_text": "Which activity is best suited for a developer to create a process that finds images on a website and stores them in a local folder, accounting for the need to potentially search for an image repeatedly due to errors on the website?",
+    "options": {
+      "A": "Get Attribute",
+      "B": "Check App State",
+      "C": "Retry Scope",
+      "D": "Delay"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 227,
+    "question_text": "What is an advantage of utilizing UiPath Orchestrator queues?",
+    "options": {
+      "A": "Capability to modify the retry count at the queue level after its creation.",
+      "B": "Capability to track the status of Queue Items.",
+      "C": "Allows several robots to handle the same Queue Item simultaneously.",
+      "D": "Guarantees each queue is exclusively processed by a single robot, by default."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 229,
+    "question_text": "What are the components of a process?",
+    "options": {
+      "A": "Procedures, Dependencies, Variations, Resources.",
+      "B": "Compliance, Operational Needs, Risk Management, Improvement.",
+      "C": "Inputs, Process Flows, Source Applications, Outputs.",
+      "D": "Technical Skills, Business Processes, Decision Points."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 230,
+    "question_text": "A variable should be created and used for storing one or multiple IDs. The collection of IDs can be updated during the execution of the robot by adding elements. Which should be the data type of this variable, taking into account that each of the IDs has the following format: XX-XX-XX (where X is a digit)?",
+    "options": {
+      "A": "List\\<lnt32\\>",
+      "B": "List\\<String\\>",
+      "C": "String",
+      "D": "String\\[\\]"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 232,
+    "question_text": "In the case of accidentally starting a process from UiPath Assistant, where should the user manually terminate the execution?",
+    "options": {
+      "A": "The user should end the execution by terminating the UiPath Robot service from the Task Manager.",
+      "B": "The user should end the execution from the \"Home\" tab and locate the running process associated with the execution.",
+      "C": "The user should end the execution by closing the UiPath Assistant application.",
+      "D": "The user should end the execution from the \"Jobs\" tab in UiPath Assistant."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 233,
+    "question_text": "Which of the following statements correctly describes the characteristics of Unattended Automation?",
+    "options": {
+      "A": "Unattended Automations are automations that run under human supervision and are typically used for tasks requiring a clear audit chain.",
+      "B": "Unattended Automations are automations intended for more complex and highly repetitive tasks, usually performed in batches, and can be decided based on predefined rules.",
+      "C": "Unattended Automations are intended for smaller, fragmented tasks and run with user supervision, requiring the user's credentials for access.",
+      "D": "Unattended Automation are automations that run under human supervision and, because of this, are best suited for small tasks."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 234,
+    "question_text": "A developer has stored a birth date in a String variable and must input this value into a custom form. The developer must ensure the date format corresponds to the accepted input format. Which method or activity is best suited to validate the format?",
+    "options": {
+      "A": "RegEx Check Activity",
+      "B": "Is Match Activity",
+      "C": "String.Equals() Method",
+      "D": "String.Contains() Method"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 235,
+    "question_text": "What is a valid way to install a custom activity package in UiPath Studio?",
+    "options": {
+      "A": "Double-click on the activity in the \"Activities\" panel of UiPath Studio.",
+      "B": "Search for the package in the UiPath Marketplace and then manually install it.",
+      "C": "Download the package from an external source and drag it into UiPath Studio.",
+      "D": "Go to Package Manager, click on \"All Packages,\" search for the package, and click \"Install\"."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 236,
+    "question_text": "Which is the recommended variable type for storing password values that are composed solely of numbers?",
+    "options": {
+      "A": "SecureString",
+      "B": "Int32",
+      "C": "String",
+      "D": "Int64"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 237,
+    "question_text": "A developer needs to create an unattended automation process that extracts the information from emails from a centralized mailbox. The developer needs to use the mail folder, port, server, username, and password values, with no email client accessible on the unattended machine. Which activity should the developer use to fetch unread emails with the subject \"Email for Robot\"?",
+    "options": {
+      "A": "Save Mail Message",
+      "B": "Get Outlook Mail Messages",
+      "C": "Save Outlook Mail Message",
+      "D": "Get IMAP Mail Messages"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 239,
+    "question_text": "At a minimum, what are the recommended properties a developer should configure to use the Get IMAP Mail Messages activity?",
+    "options": {
+      "A": "MailFolder, Port, Server, Email, and Output Messages.",
+      "B": "Account, MailFolder, and Output Messages.",
+      "C": "To, Subject, Body, Port, Server, Email, Password or SecurePassword, and Name.",
+      "D": "MailFolder, Port, Server, Email, Password or SecurePassword, and Messages."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 240,
+    "question_text": "A developer stores value \"25.11\" in a String variable called \"InvoiceTotal\". Which expression should be used to convert \"InvoiceTotal\" to a numeric format with the decimals included?",
+    "options": {
+      "A": "String.ToNumeric(Invoice Total)",
+      "B": "Clnt(Invoice Total)",
+      "C": "Invoice Total.IsNumeric",
+      "D": "Double.Parse(InvoiceTotal)"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 242,
+    "question_text": "In which stage of the UiPath implementation model are the chosen processes analyzed in their AS-IS state?",
+    "options": {
+      "A": "Process Analysis",
+      "B": "Development",
+      "C": "Kick-Off",
+      "D": "Solution Design"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 244,
+    "question_text": "In a process, a variable called \"Timestamp\" of type Date Time is used. The developer wants to print in the Output panel the variable in the format \"yyyy-MM-dd hh:mm\". Which expression should be used to display the value?",
+    "options": {
+      "A": "Timestamp. ToString(\"yyyy-MM-dd hh:mm\")",
+      "B": "Timestamp. ToDate Time(\"yyyy-MM-dd hh:mm\")",
+      "C": "Timestamp.Compare To(\"yyyy-MM-dd hh:mm\")",
+      "D": "Timestamp. ToString(\"yyyy MM dd hh mm\")"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 245,
+    "question_text": "What types of authentication are supported by Connector Builder for Integration Service?",
+    "options": {
+      "A": "OAuth 2.0 Authorization Code, OAuth 2.0 Client Credentials, SSL, OAuth 2.0 Implicit Grant, LDAP, RADIUS.",
+      "B": "OAuth 2.0 Authorization Code, OAuth 2.0 Authorization code with PKCE, OAuth 2.0 Client Credentials, Basic, API Key, Personal Access Token (PAT), No Authentication.",
+      "C": "OAuth 2.0 Authorization Code, OAuth 2.0 Authorization code with PKCE, Basic, Windows Authentication, API Key, Kerberos.",
+      "D": "OAuth 1.0, OAuth 2.0 Authorization Code, OAuth 2.0 Client Credentials, SAML, JWT, Lightweight Directory Access Protocol."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 246,
+    "question_text": "Which option from the UiPath Studio backstage view prohibits debugging projects with Workflow Analyzer errors?",
+    "options": {
+      "A": "Enforce Analyzer before remote execution.",
+      "B": "Enforce Analyzer before Push/Check-in.",
+      "C": "Enforce Analyzer before Publish,",
+      "D": "Enforce Analyzer before Run."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 247,
+    "question_text": "A process workflow contains a Try Catch activity that is designed to catch and stop when any unknown System Exceptions occur. What would be the recommended Log Level for the Log Message contained in the System Exception block?",
+    "options": {
+      "A": "Info",
+      "B": "Warn",
+      "C": "Fatal",
+      "D": "Error"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 248,
+    "question_text": "Which option best describes a process that is considered SEMI-AUTOMATION?",
+    "options": {
+      "A": "Processes where change is frequent, the system environment is volatile, and multiple manual (even non-digital) actions are required.",
+      "B": "Processes that are digital and involve a highly static system and process environment, so that they can be easily broken into instructions and simple triggers can be defined.",
+      "C": "Processes that are rather digital and can be automated, but use some technologies that are complex (such as OCR) or require advanced programming skills.",
+      "D": "Processes that can be broken down into steps that can be clearly automated, and steps that need to stay manual (such as validations or usage of physical security tokens)."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 249,
+    "question_text": "Which set of properties, methods, or activities enables the developer to obtain a subset of data from a DataTable called \"dt\"?",
+    "options": {
+      "A": "Filter Data Table, dt.Select, dt.AsEnumerable().Where",
+      "B": "dt.Rows(1..5), Remove Data Row activity",
+      "C": "Sort Data Table, Join Data Tables, Get Row Item",
+      "D": "Output Data Table, Lookup Data Table, Build Data Table, Merge Data Table"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 250,
+    "question_text": "In a process, a variable called \"Timestamp\" of type DateTime is used. The developer wants to print in the Output panel the variable in the format \"yyyy-MM-dd hh:mm\". Which expression should be used to display the value?",
+    "options": {
+      "A": "Timestamp.ToString(\"yyyy MM dd hh mm\")",
+      "B": "Timestamp.ToString(\"yyyy-MM-dd hh:mm\")",
+      "C": "Timestamp.CompareTo(\"yyyy-MM-dd hh:mm\")",
+      "D": "Timestamp.ToString(), \"yyyy-MM-dd hh:mm\")"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 251,
+    "question_text": "Who is responsible for devising a strategy to prioritize processes during the Business Case and Technical Validation phase?",
+    "options": {
+      "A": "Project Manager",
+      "B": "Solution Architect",
+      "C": "Automation Developer",
+      "D": "Business Analyst"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 252,
+    "question_text": "What happens to the scope of a variable that is automatically generated from an activity output if you move the activity into a For Each loop?",
+    "options": {
+      "A": "The scope of the generated variable updates to match the new location within the For Each loop.",
+      "B": "The generated variable is deleted, and you need to manually create a new variable within the loop.",
+      "C": "The scope of the generated variable remains unchanged from its original sequence.",
+      "D": "The scope of the variable changes, but it is not updated automatically: you need to manually adjust it."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 253,
+    "question_text": "Which is the recommended variable type for storing password values that are composed solely of numbers?",
+    "options": {
+      "A": "Object",
+      "B": "Int32",
+      "C": "SecureString",
+      "D": "Int64"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 254,
+    "question_text": "What are the methods supported by Connector Builder in the UiPath Integration Service?",
+    "options": {
+      "A": "Get, Post, Put, Options",
+      "B": "Get, Get By Id, Post, Put, Patch, Delete",
+      "C": "Get, Post, Put, Trace",
+      "D": "Get, Get By Id, Put, Trace, Options"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 255,
+    "question_text": "A developer utilized the Add Data Row activity to insert a row into a DataTable called \"dtReports\". However, during runtime, UiPath Studio encounters an exception: \"Add Data Row: Object reference not set to an instance of an object.\" The reason is that the DataTable has not been initialized. To rectify this issue, what should the developer include in an Assign activity before the Add Data Row activity?",
+    "options": {
+      "A": "Assign dtReports = New System.Data.DataTable",
+      "B": "Assign New System.Data.DataTable = dtReports",
+      "C": "Assign dtReports = New System.Data.DataRow",
+      "D": "Assign dtReports = New List(Of DataRow)"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 256,
+    "question_text": "Which selector should be adjusted according to best practices to ensure reliable and stable automation?",
+    "options": {
+      "A": "\\<html app-chrome.exe' title-Release History - UiPath Platform'/\\>\\<webctrl parentid-confluence-ui' tag='SPAN' idx-94'/\\>",
+      "B": "\\<html app-chrome.exe' title-World population - Wikipedia' /\\>\\<webctrl aaname-Population by continent’ tag-TABLE7\\>\\<webctrl tableCol='3' tableRow='7' tag-TD7\\>",
+      "C": "\\<html app='chrome.exe' title='ACME System 1 - Download monthly Report' /\\>\\<webctrl aanameYear 200?' parentid='searchForm' class='texf /\\>",
+      "D": "\\<html app-chrome.exe' title-Google' \\!\\>\\<webctrl tag-INPUT' aaname='Search' /\\>"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 257,
+    "question_text": "What is true about the behavior of the Read Range Workbook activity?",
+    "options": {
+      "A": "It works only with .xls files, and Excel does not need to be installed on the system.",
+      "B": "It works only with .xlsm files, and Excel must be installed on the system.",
+      "C": "It works with .xls and .xlsx files, and Excel does not need to be installed on the system.",
+      "D": "It works with .xlm and .xlsx files, and Excel must be installed on the system."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 258,
+    "question_text": "Where can the UiPath Robot logs be stored for centralized access and analysis?",
+    "options": {
+      "A": "Directly into a database.",
+      "B": "Local text files only.",
+      "C": "Microsoft Excel files.",
+      "D": "UiPath Orchestrator."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 260,
+    "question_text": "Which of the following statements is true?",
+    "options": {
+      "A": "UiPath Robots can be deleted if they have pending or active jobs in UiPath Orchestrator.",
+      "B": "Unattended robots can be connected to UiPath Orchestrator without the Windows username.",
+      "C": "UiPath Orchestrator consumes the Queue Items uploaded to the UiPath Robot.",
+      "D": "Attended robots can be connected to UiPath Orchestrator without Windows Credentials."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 261,
+    "question_text": "Which of the following is a characteristic of the GIT Init feature?",
+    "options": {
+      "A": "Creates a new remote GIT repository.",
+      "B": "Commits the changes to a local GIT repository.",
+      "C": "Adds the current project to a local GIT repository.",
+      "D": "Adds the current project to a remote GIT repository."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 262,
+    "question_text": "What activity can be used to get all rows in a DataTable variable with a Quantity value greater than 500?",
+    "options": {
+      "A": "Sort Data Table",
+      "B": "Output Data Table",
+      "C": "Lookup Data Table",
+      "D": "Filter Data Table"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 263,
+    "question_text": "What is the default behavior when publishing files in UiPath Studio regarding the project folder?",
+    "options": {
+      "A": "By default, all files in the project folder are published, including test cases.",
+      "B": "By default, only selected files in the project folder are published.",
+      "C": "By default, all files in the project folder are published except for test cases.",
+      "D": "By default, all files in the project folder, including test cases, are published as separate packages."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 264,
+    "question_text": "What are the expected tasks that should be performed by an Automation Business Analyst?",
+    "options": {
+      "A": "Design the architecture of the automation solution.",
+      "B": "Analyze the needs and propose solutions.",
+      "C": "Test the final solution.",
+      "D": "Define the overall solution of an automation project."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 265,
+    "question_text": "What are the steps to start building a custom connector using the Connector Builder for Integration Service?",
+    "options": {
+      "A": "Open UiPath Studio, create a new process, on the Connectors tab, select Add a new Connector, choose to start from an API definition or from a blank connector.",
+      "B": "Open Automation Cloud, go to Integration Service, on the Connectors tab, select Add a new Connector, choose to start from an API definition or from a blank connector.",
+      "C": "Open Automation Cloud, go to Orchestrator, on the Connections tab, select Add a new Connection, choose to start from an API definition or from a blank connector.",
+      "D": "Open Automation Cloud, go to Orchestrator, on the Connectors tab, select Add a new Connector, choose to start from an API definition or choose OAuth 2.0 authentication method."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 266,
+    "question_text": "Which option best describes a process that is considered ZERO-TOUCH AUTOMATION?",
+    "options": {
+      "A": "Processes where change is frequent, the system environment is volatile, and multiple manual (even non-digital) actions are required.",
+      "B": "Processes that are digital and involve a highly static system and process environment, so that they can be easily broken into instructions and simple triggers can be defined.",
+      "C": "Processes that can be broken down into steps that can be clearly automated, and steps that need to stay manual (such as validations or usage of physical security tokens).",
+      "D": "Processes that are rather digital and can be automated, but use some technologies that are complex (such as OCR) or require advanced programming skills."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 267,
+    "question_text": "Which of the following activities can be used to get the state of a button (enabled/disabled)?",
+    "options": {
+      "A": "Find Element",
+      "B": "Get Text",
+      "C": "Get Attribute",
+      "D": "Check App State"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 268,
+    "question_text": "Which option from the UiPath Studio backstage view prohibits debugging projects with Workflow Analyzer errors?",
+    "options": {
+      "A": "Enforce Analyzer before Run.",
+      "B": "Enforce Analyzer before Push/Check-in.",
+      "C": "Enforce Analyzer before Remote Execution.",
+      "D": "Enforce Analyzer before Publish."
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 269,
+    "question_text": "In the UiPath Implementation Methodology, which phase involves building the SDD (Solution Design Document)?",
+    "options": {
+      "A": "Solution Design phase",
+      "B": "User Acceptance Testing phase",
+      "C": "Kick-off phase",
+      "D": "Process Design phase"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 270,
+    "question_text": "In which phase of the Implementation Methodology is the Process Definition Document (PDD) created?",
+    "options": {
+      "A": "Deployment & Hypercare",
+      "B": "Process Analysis",
+      "C": "Solution Design",
+      "D": "User Acceptance Testing"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 272,
+    "question_text": "When using the UiPath Strict selector as a targeting method, how does it interact with anchor usage?",
+    "options": {
+      "A": "The Strict selector always works better with multiple anchors.",
+      "B": "Anchors are not used when only the Strict selector is enabled as a targeting method.",
+      "C": "The Strict selector requires at least two anchors to function correctly.",
+      "D": "The Strict selector only uses anchors that are automatically identified."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 273,
+    "question_text": "Your team wants to build a cross-platform automation that runs on different systems, including Windows, Mac, and Linux. How does Studio Web support this requirement?",
+    "options": {
+      "A": "Studio Web automations are cloud-based but must be run exclusively on Windows robots.",
+      "B": "Studio Web only supports automation on Linux and Mac systems, but not on Windows systems.",
+      "C": "Studio Web automations run on serverless robots that are provisioned for you and can run on Windows, Mac, or Linux robots.",
+      "D": "Studio Web automations require a specific Windows robot to be installed on each operating system before running on different platforms."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 274,
+    "question_text": "What is the advantage of utilizing UiPath Orchestrator queues?",
+    "options": {
+      "A": "Allows several robots to handle the same Queue Item simultaneously.",
+      "B": "Capability to modify the retry count at the queue level after its creation.",
+      "C": "Guarantees each queue is exclusively processed by a single robot, by default.",
+      "D": "Capability to track the status of Queue Items."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 275,
+    "question_text": "A developer is working with a Purchase Order automation process. The number of shipped containers and the number of items per container are extracted in two strings: \"ShippedContainers\" \"ItemsPerContainer\" The robot must calculate the total number of items in all shipped containers as an Integer. Which expression is suitable for calculating the total number of boxes?",
+    "options": {
+      "A": "ShippedContainers.ToInt32() \\* ItemsPerContainer.ToInt32()",
+      "B": "String.ToInt32(ShippedContainers) \\* String.ToInt32(ItemsPerContainer)",
+      "C": "CInt(ShippedContainers \\* ItemsPerContainer)",
+      "D": "Convert.ToInt32(ShippedContainers) \\* Convert.ToInt32(ItemsPerContainer)"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 276,
+    "question_text": "A developer has defined an Int32 variable called IntVar. The developer has written the following expression in a Log Message activity: Convert.ToBoolean(IntVar) If IntVar = 1, what is displayed in the Output panel after execution?",
+    "options": {
+      "A": "The value False is displayed.",
+      "B": "The value True is displayed.",
+      "C": "A System.ArgumentNullException is displayed.",
+      "D": "A System.InvalidCastException is displayed."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 277,
+    "question_text": "How should arguments be named according to best practices?",
+    "options": {
+      "A": "The name should have a prefix stating the argument type.",
+      "B": "The name should contain the name of the workflow to which they are defined.",
+      "C": "The name must exactly match the variable name given in the Value field.",
+      "D": "The name should conclude with the direction and be comparable to the variable name provided in the Value."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 278,
+    "question_text": "Which activity is best suited for a developer to find images on a website and store them in a local folder, while accounting for the need to potentially search for an image repeatedly due to errors on the website?",
+    "options": {
+      "A": "Retry Scope",
+      "B": "Get Attribute",
+      "C": "Check App State",
+      "D": "Delay"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 279,
+    "question_text": "Which of the following describes a role in UiPath Orchestrator?",
+    "options": {
+      "A": "Roles are collections of machines used to control the devices users can access in the UiPath ecosystem.",
+      "B": "Roles are collections of permissions used to control the level of access and the actions users can perform in the UiPath ecosystem.",
+      "C": "Roles are collections of folders used to control the level of hierarchical organization within the UiPath ecosystem.",
+      "D": "Roles are collections of processes used to control the order in which users can execute processes in the UiPath ecosystem."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 281,
+    "question_text": "To read only the first page of a .pdf file using the Read PDF Text activity, what value should be entered into the Range property?",
+    "options": {
+      "A": "\"1\"",
+      "B": "\"\"",
+      "C": "(0)",
+      "D": "1"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 282,
+    "question_text": "Which of the following statements is true about unattended automations?",
+    "options": {
+      "A": "Unattended automations require a human to provide credentials for the used applications and log out when the process is finished.",
+      "B": "Unattended automations run under human supervision and require input at some points in the process.",
+      "C": "Unattended automations are best suited for smaller, more fragmented tasks that run on the user's machine.",
+      "D": "Unattended automations are suited to processes that perform privileged operations, requiring elevated permissions and credentials."
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 283,
+    "question_text": "Where can you find a list of all activities that support Windows compatibility?",
+    "options": {
+      "A": "In the converted project's settings.",
+      "B": "In the Activities Guide.",
+      "C": "In the Official feed documentation.",
+      "D": "In the Windows-Legacy project configuration."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 284,
+    "question_text": "What activity should be used to iterate through a number of Outlook emails?",
+    "options": {
+      "A": "For Each Row",
+      "B": "For Each Outlook Item",
+      "C": "For Each File in Folder",
+      "D": "For Each Email"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 285,
+    "question_text": "After generating a strict selector using the Indicate target on screen option within a Click activity, what should the developer utilize to view the complete list of attributes for the targeted UI element?",
+    "options": {
+      "A": "Open in UI Explorer",
+      "B": "Properties Panel",
+      "C": "Debug Mode",
+      "D": "Output Panel"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 286,
+    "question_text": "A developer is automating an invoice process for the finance department using a Dispatcher and Performer model with access to Orchestrator. Each morning, new invoices are added to a shared folder. Each invoice needs to be processed separately as a single unit of work. After processing, the system output ID must be emailed to the finance team. How should the developer store the invoice data in Orchestrator?",
+    "options": {
+      "A": "Upload individual invoice data as Specific Data in Queue Items and Create an Asset for the finance team email address.",
+      "B": "Upload individual invoice data and the finance team email address as Specific Data in Queue Items.",
+      "C": "Create an asset for each piece of invoice data as well as for the finance team email address.",
+      "D": "Upload the finance team email address as Specific Data in Queue Items and Create an asset for each individual invoice data field."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 287,
+    "question_text": "Consider the following automation steps: Open the Web Browser. Scrape the data. Store the data in Microsoft Excel. Close the Web Browser. In accordance with UiPath best practices, which section of the Try Catch activity ensures that Step 4 (closing the web browser) is executed regardless of any exceptions occurring in Step 2 (data scraping) or Step 3 (storing data in Microsoft Excel)?",
+    "options": {
+      "A": "Application Exception Catch Block",
+      "B": "Business Exception Catch Block",
+      "C": "Finally Block",
+      "D": "Try Block"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 288,
+    "question_text": "Which activity should be used inside a Use Excel File scope to be able to sort a table directly in an .xlsx file?",
+    "options": {
+      "A": "Sort Range",
+      "B": "Get Table Range",
+      "C": "Read Range",
+      "D": "Sort Data Table"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 289,
+    "question_text": "Which of the following is a valid panel from the UiPath Studio interface, from where a variable can be created?",
+    "options": {
+      "A": "Project Panel",
+      "B": "Data Manager Area",
+      "C": "Locals Panel",
+      "D": "Activities Panel"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 290,
+    "question_text": "What user category is the UiPath StudioX profile best suited for, as opposed to the UiPath Studio profile?",
+    "options": {
+      "A": "Project managers looking to guide project teams through automations.",
+      "B": "Business users looking to automate tasks for themselves and their immediate teams.",
+      "C": "Developers looking to build complex unattended or attended process automations.",
+      "D": "Business analysts looking to document the processes for automation."
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 291,
+    "question_text": "A developer has created an automation that utilizes an Asset value from Orchestrator with the Get Asset activity. This value represents the email addresses of the process owners, which are subject to change. What Asset type is most suitable for this situation?",
+    "options": {
+      "A": "Bool",
+      "B": "Integer",
+      "C": "Text",
+      "D": "Credential"
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 292,
+    "question_text": "What variable type should the developer use to store the monetary amount read from a single cell in an Excel file, before inputting it into a field in a web application for the automation process?",
+    "options": {
+      "A": "DataRow",
+      "B": "Double",
+      "C": "Object",
+      "D": "List"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 293,
+    "question_text": "How can the value be configured for each of the three arguments (one \"In\", one \"Out\", and one \"In/Out\") in the Arguments window of the Invoked Workflow?",
+    "options": {
+      "A": "In: Variable or Hard-coded value, Out: Variable or Hard-coded value, In/Out: Hard-coded value only",
+      "B": "In: Variable or Hard-coded value, Out: Variable only, In/Out: Variable only",
+      "C": "In: Variable only, Out: Variable only, In/Out: Variable only",
+      "D": "In: Variable or Hard-coded value, Out: Hard-coded value only, In/Out: Variable only"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 294,
+    "question_text": "Which of the following properties is optional when creating a new argument?",
+    "options": {
+      "A": "Default value",
+      "B": "IsRequired",
+      "C": "Argument type",
+      "D": "Direction"
+    },
+    "answer": "A",
+    "images": []
+  },
+  {
+    "question_number": 295,
+    "question_text": "When creating a new project in Studio Web with cross-platform compatibility, what language must be selected for expressions to ensure the project is cloud-compatible?",
+    "options": {
+      "A": "VB",
+      "B": "C#",
+      "C": "Java",
+      "D": "Python"
+    },
+    "answer": "B",
+    "images": []
+  },
+  {
+    "question_number": 296,
+    "question_text": "What is the main purpose of using the App/Web Recorder during automation development?",
+    "options": {
+      "A": "To test and optimize the execution speed of automation workflows across various environments.",
+      "B": "To create custom reusable components within UiPath Studio for future use in different projects.",
+      "C": "To automatically generate workflow elements for UI interactions by recording actions in an application or web page.",
+      "D": "To design and debug complex workflows using dynamic components."
+    },
+    "answer": "C",
+    "images": []
+  },
+  {
+    "question_number": 297,
+    "question_text": "In a workflow, a developer has set up two Int32 variables: Var1 and Var2. During Debug mode execution, which panel enables the developer to keep track of the outcome of the expression Var1 > Var2?",
+    "options": {
+      "A": "Local Panel",
+      "B": "Debug Panel",
+      "C": "Verify Variables Panel",
+      "D": "Watch Panel"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 300,
+    "question_text": "How can Folder roles be assigned in an Orchestrator instance where Activate Classic Folders is unchecked under Tenant > Settings > General?",
+    "options": {
+      "A": "From the Roles tab of the Tenant > Manage Access page.",
+      "B": "From the Tenant > Settings > General page.",
+      "C": "From the Assign roles tab of the Tenant > Manage Access page",
+      "D": "From the Folders page or from the folder's Settings page"
+    },
+    "answer": "D",
+    "images": []
+  },
+  {
+    "question_number": 301,
+    "question_text": "Given the following list of arguments:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "7",
+      "D": "9"
+    },
+    "answer": "D",
+    "images": ["401.jpg"]
+  },
+  {
+    "question_number": 302,
+    "question_text": "A developer is using the Step Out action in Debug mode to review a process as shown in the following exhibit.",
+    "options": {
+      "A": "Pauses at an activity that caused an error",
+      "B": "Re-executes the activity which threw an exception",
+      "C": "Executes only one activity at a time and then pauses",
+      "D": "Executes activities in the current container and then pauses"
+    },
+    "answer": "D",
+    "images": ["402.png"]
+  },
+  {
+    "question_number": 303,
+    "question_text": "What represents a sequence that contains an activity with a partial selector?",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "images": ["403.jpg"]
+  },
+  {
+    "question_number": 304,
+    "question_text": "Review the following exhibit.",
+    "options": {
+      "A": "Hello",
+      "B": "Good Morning UiPath",
+      "C": "Good Morning",
+      "D": "UiPath"
+    },
+    "answer": "C",
+    "images": ["404.png"]
+  },
+  {
+    "question_number": 305,
+    "question_text": "In the Catches section of the Try Catch activity a developer selected ArgumentException in the exception handler.",
+    "options": {
+      "A": "The Finally block is not executed and a runtime error occurs.",
+      "B": "The Finally block executes and no exception is thrown.",
+      "C": "The Catches section catches the exception and the Finally block is executed.",
+      "D": "The Catches section catches the exception and the Finally block is skipped."
+    },
+    "answer": "A",
+    "images": ["405.png"]
+  },
+  {
+    "question_number": 306,
+    "question_text": "A developer executes the following workflow in Debug mode with \"Continue on Exception \" enabled. How many times will the workflow pause the execution?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "B",
+    "images": ["406.png"]
+  },
+  {
+    "question_number": 307,
+    "question_text": "A developer created a datatable, dt_Users as shown in the following exhibit.",
+    "options": {
+      "A": "CurrentRow(0)ToStnng",
+      "B": "CurrentRow(1) ToString",
+      "C": "dtJJsers(O) ToString",
+      "D": "dt_Users(1) ToString"
+    },
+    "answer": "A",
+    "images": ["407.jpg"]
+  },
+  {
+    "question_number": 308,
+    "question_text": "A developer has created an automation process that includes:",
+    "options": {
+      "A": "Apple",
+      "B": "Orange",
+      "C": "Apple Orange",
+      "D": "Orange Apple"
+    },
+    "answer": "B",
+    "images": ["408.jpg"]
+  },
+  {
+    "question_number": 309,
+    "question_text": "A developer has created the following workflow:",
+    "options": {
+      "A": "World Hello",
+      "B": "World",
+      "C": "Hello World",
+      "D": "Hello"
+    },
+    "answer": "C",
+    "images": ["409.png"]
+  },
+  {
+    "question_number": 310,
+    "question_text": "What functionality can the developer use to improve the reliability of the Type Into activity for text input fields that are impacted by changing orientations?",
+    "options": {
+      "A": "Highlight Elements",
+      "B": "Find Element",
+      "C": "Anchor",
+      "D": "Delay Before"
+    },
+    "answer": "C",
+    "images": ["410.png"]
+  },
+  {
+    "question_number": 311,
+    "question_text": "Consider the following Try Catch statement:",
+    "options": {
+      "A": "The exception will be handled in the ArgumentException catch.",
+      "B": "There is no catch defined for the thrown exception type.",
+      "C": "The exception will be handled in the InvalidOperationException catch.",
+      "D": "The exception will be handled in the BusinessRuleException catch."
+    },
+    "answer": "B",
+    "images": ["411.png"]
+  },
+  {
+    "question_number": 312,
+    "question_text": "A Credential asset is created by a developer in Orchestrator as seen in the below image:",
+    "options": {
+      "A": "Asset Name",
+      "B": "Description",
+      "C": "Type",
+      "D": "Password"
+    },
+    "answer": "D",
+    "images": [
+      "412.jpg"
+    ]
+  },
+  {
+    "question_number": 313,
+    "question_text": "You are invoking a workflow file called \"SecondaryWorkflow.xaml\" from \"PrimaryWorkflow.xamr. The following shows the Import Arguments panel of the Invoke Workflow File activity:",
+    "options": {
+      "A": "Log message \"This is the second file\".",
+      "B": "Log message \"Invoked from the first file\".",
+      "C": "A System.ArgumentException is thrown at the Invoke Workflow File activity.",
+      "D": "The Log Message activity displays an empty string."
+    },
+    "answer": "B",
+    "images": [
+      "413.jpg"
+    ]
+  },
+  {
+    "question_number": 314,
+    "question_text": "When a developer is examining a suspended state upon reaching a breakpoint, which activity will the Executor be directed to if Step Out is selected from the Debug section in UiPath Studio's ribbon interface?",
+    "options": {
+      "A": "W1",
+      "B": "S1",
+      "C": "A1",
+      "D": "S2"
+    },
+    "answer": "B",
+    "images": [
+      "414.jpg"
+    ]
+  },
+  {
+    "question_number": 315,
+    "question_text": "In order to make the selector specifically target the \"First Name\" text field during runtime, the developer needs to select one additional Property checkbox from the Unselected Items column in the UI Explorer. Which is the additional Property checkbox in the following UI Explorer \"Unselected Items\" column that should be used for the First Name text field.",
+    "options": {
+      "A": "tag",
+      "B": "id",
+      "C": "isleaf",
+      "D": "name"
+    },
+    "answer": "B",
+    "images": [
+      "415.jpg"
+    ]
+  },
+  {
+    "question_number": 316,
+    "question_text": "A developer has designed an automation workflow which comprises:",
+    "options": {
+      "A": "Pieces, Strawberries, Oranges",
+      "B": "Oranges",
+      "C": ", Oranges",
+      "D": "Pieces, Strawberries"
+    },
+    "answer": "A",
+    "images": [
+      "416.jpg"
+    ]
+  },
+  {
+    "question_number": 317,
+    "question_text": "The \"DataTable\\_Users\" variable of the data table type contains the following columns: \"First Name\". \"Last Name\", \"Date of Birth\", and \"Username\". How can the argument \"in\\_UserName\" from \"BuildUserID.xaml\" be mapped to the appropriate values in \"Main.xaml\"?",
+    "options": {
+      "A": "CurrentRow(\"Username\").ToString",
+      "B": "DataTable\\_Users(\"Username\").ToString",
+      "C": "UserID",
+      "D": "Usernames"
+    },
+    "answer": "A",
+    "images": [
+      "417.jpg"
+    ]
+  },
+  {
+    "question_number": 318,
+    "question_text": "When using Invoke Workflow File, in the import arguments panel, what types of expressions can be used in the value column?",
+    "options": {
+      "A": "In arguments can be given Hard-coded values or variables. In/out and out arguments can only be given variables.",
+      "B": "In arguments can only be given Hard-coded values. In/out and out arguments can only be given variables.",
+      "C": "In/out and out arguments can be given Hard-coded values or variables. In arguments can only be given variables.",
+      "D": "Only variables can be configured for all types of arguments."
+    },
+    "answer": "A",
+    "images": [
+      "418.jpg"
+    ]
+  },
+  {
+    "question_number": 319,
+    "question_text": "A developer created a DataTable called \"DT\" using the Build Data Table activity as shown in the exhibit:",
+    "options": {
+      "A": "\"42Clara\"",
+      "B": "\"42Michael\"",
+      "C": "\"MichaelClara\"",
+      "D": "\"Clara25\""
+    },
+    "answer": "A",
+    "images": [
+      "419.jpg"
+    ]
+  },
+  {
+    "question_number": 320,
+    "question_text": "A developer has configured the Project Settings for UI Automation Modern and added a Check App State activity In the project, as shown below.",
+    "options": {
+      "A": "0 seconds",
+      "B": "0.2 seconds",
+      "C": "0.3 seconds",
+      "D": "30 seconds"
+    },
+    "answer": "B",
+    "images": [
+      "420.jpg"
+    ]
+  },
+  {
+    "question_number": 321,
+    "question_text": "",
+    "options": {
+      "A": "It writes the values in subsequent rows in the \"Active Users.xlsx\" Excel file.",
+      "B": "It writes the values in the same row in the UserName data table.",
+      "C": "It writes the values in the same row in the \"Active Users.xlsx\" Excel file.",
+      "D": "It writes the values in subsequent rows in the UserName data table."
+    },
+    "answer": "A",
+    "images": [
+      "421.jpg"
+    ]
+  },
+  {
+    "question_number": 322,
+    "question_text": "Consider the following code involving a Try Catch:",
+    "options": {
+      "A": "\"BRE caught\", exception rethrown.",
+      "B": "\"Exception caught\".",
+      "C": "\"Exception caught\", \"Finally executed\".",
+      "D": "\"BRE caught\", exception rethrown, \"Finally executed\"."
+    },
+    "answer": "D",
+    "images": [
+      "422.jpg"
+    ]
+  },
+  {
+    "question_number": 323,
+    "question_text": "A developer needs to create a process for the Human Resources team. During the development, they try to run the workflow containing the following dictionary variable:",
+    "options": {
+      "A": "The Dictionary was not initialized.",
+      "B": "The \"John\" key was not present in the dictionary.",
+      "C": "The assign's set value syntax should be PinMapping\\<\"John\"\\>.",
+      "D": "The assign's set value syntax should be PinMapping\\[\"John\"\\]."
+    },
+    "answer": "A",
+    "images": [
+      "423.jpg"
+    ]
+  },
+  {
+    "question_number": 324,
+    "question_text": "A developer created a data table called \"DT\" using the Build Data Table activity as shown in the exhibit. What is the result of the expression, \"DT.Rows(0)(1).ToString + DT.Rows(1)(0).ToString\"?",
+    "options": {
+      "A": "MichaelClara",
+      "B": "2542",
+      "C": "Michael42",
+      "D": "42Clara"
+    },
+    "answer": "D",
+    "images": [
+      "424.jpg"
+    ]
+  }
+]
+
