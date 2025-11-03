@@ -343,9 +343,7 @@
       "D": "Add a \"Clear Collection\" activity at the beginning of the Process.xaml workflow."
     },
     "answer": "B",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 42,
@@ -357,9 +355,7 @@
       "D": "Password-protected PDF files cannot be processed with this activity."
     },
     "answer": "B",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 44,
@@ -395,7 +391,7 @@
     },
     "answer": "B",
     "images": [
-      "47.jpj"
+      "47.jpg"
     ]
   },
   {
@@ -638,9 +634,7 @@
       "D": "Provide a mechanism for subscribing to specific events from third-party applications, automatically starting processes in Orchestrator."
     },
     "answer": "D",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 76,

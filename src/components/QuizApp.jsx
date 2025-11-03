@@ -5,17 +5,42 @@ export default function QuizApp({ user, onExit }) {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
+  const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(90 * 60); // 90 mins in seconds
+  const [timeLeft, setTimeLeft] = useState(90 * 60); // 90 minutes in seconds
 
+  // 🔹 Load questions
   useEffect(() => {
-    // Shuffle and pick 60 random questions
-    const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
-    setQuestions(shuffled.slice(0, 60));
+    // Retrieve used question numbers from localStorage
+    const used = JSON.parse(localStorage.getItem("usedQuestions") || "[]");
+
+    // Filter out already used questions
+    const unusedQuestions = questionsData.filter(
+      (q) => !used.includes(q.question_number)
+    );
+
+    // If less than 60 unused remain, reset the used list
+    let availableQuestions = unusedQuestions;
+    if (unusedQuestions.length < 60) {
+      localStorage.removeItem("usedQuestions");
+      availableQuestions = [...questionsData];
+    }
+
+    // Randomize and pick 60
+    const shuffled = [...availableQuestions].sort(() => 0.5 - Math.random());
+    const selectedSet = shuffled.slice(0, 60);
+    setQuestions(selectedSet);
+
+    // Update used questions list
+    const newUsed = [
+      ...used,
+      ...selectedSet.map((q) => q.question_number),
+    ];
+    localStorage.setItem("usedQuestions", JSON.stringify(newUsed));
   }, []);
 
-  // Timer countdown
+  // 🔹 Timer countdown
   useEffect(() => {
     if (timeLeft <= 0) {
       handleFinish();
@@ -25,15 +50,25 @@ export default function QuizApp({ user, onExit }) {
     return () => clearInterval(timer);
   }, [timeLeft]);
 
+  // 🔹 Selecting an answer
   const handleSelect = (option) => {
-    if (selected) return; // prevent multiple selections
-    setSelected(option);
+    if (answers[current]) return; // prevent re-answering
+    const q = questions[current];
+    const correct = q.answer;
 
-    const correct = questions[current].answer;
-    if (option === correct) setScore((prev) => prev + 1);
+    setAnswers((prev) => ({
+      ...prev,
+      [current]: option,
+    }));
+
+    if (option === correct) {
+      setScore((prev) => prev + 1);
+    }
   };
 
+  // 🔹 Move next only if answered
   const handleNext = () => {
+    if (!answers[current]) return; // must answer before moving on
     if (current + 1 < questions.length) {
       setCurrent((prev) => prev + 1);
       setSelected(null);
@@ -42,6 +77,12 @@ export default function QuizApp({ user, onExit }) {
     }
   };
 
+  // 🔹 Go to previous question (read-only)
+  const handlePrevious = () => {
+    if (current > 0) setCurrent((prev) => prev - 1);
+  };
+
+  // 🔹 Finish test and save history
   const handleFinish = () => {
     setShowResult(true);
 
@@ -51,7 +92,8 @@ export default function QuizApp({ user, onExit }) {
       score,
       total: questions.length,
       percentage: ((score / questions.length) * 100).toFixed(2),
-      passed: ((score / questions.length) * 100) >= 70
+      passed: ((score / questions.length) * 100) >= 70,
+      attemptedQuestions: questions.map((q) => q.question_number),
     };
 
     const history = JSON.parse(localStorage.getItem("quizHistory") || "[]");
@@ -59,52 +101,63 @@ export default function QuizApp({ user, onExit }) {
     localStorage.setItem("quizHistory", JSON.stringify(history));
   };
 
+  // 🔹 Format timer
   const formatTime = (seconds) => {
     const m = Math.floor(seconds / 60);
     const s = seconds % 60;
-    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+    return `${m.toString().padStart(2, "0")}:${s
+      .toString()
+      .padStart(2, "0")}`;
   };
 
   if (questions.length === 0) return <h2>Loading questions...</h2>;
 
+  // 🔹 Result Page
   if (showResult)
     return (
       <div className="result">
         <h2>Test Completed</h2>
         <p>Name: {user}</p>
-        <p>Score: {score} / {questions.length}</p>
+        <p>
+          Score: {score} / {questions.length}
+        </p>
         <p>Percentage: {((score / questions.length) * 100).toFixed(2)}%</p>
         <h3
           style={{
-            color: ((score / questions.length) * 100) >= 70 ? "green" : "red"
+            color: ((score / questions.length) * 100) >= 70 ? "green" : "red",
           }}
         >
-          {((score / questions.length) * 100) >= 70 ? "✅ Passed" : "❌ Failed"}
+          {((score / questions.length) * 100) >= 70
+            ? "✅ Passed"
+            : "❌ Failed"}
         </h3>
         <button onClick={onExit}>Exit</button>
       </div>
     );
 
   const q = questions[current];
-
-  // 🧠 Ensure options exist as an object
+  const selectedAnswer = answers[current];
   const options = q.options || {};
   const images = q.images || [];
 
   return (
     <div className="quiz">
+      {/* Header */}
       <div className="quiz-header">
         <h3>{user}'s Test</h3>
-        <p>Question {current + 1} / {questions.length}</p>
+        <p>
+          Question {current + 1} / {questions.length}
+        </p>
         <p>⏱ Time Left: {formatTime(timeLeft)}</p>
       </div>
 
+      {/* Body */}
       <div className="quiz-body">
         <h4>
           {q.question_number}. {q.question_text}
         </h4>
 
-        {/* 🖼️ Multiple Images Support */}
+        {/* Images */}
         {images.length > 0 && (
           <div className="question-images">
             {images.map((img, index) => (
@@ -118,17 +171,18 @@ export default function QuizApp({ user, onExit }) {
           </div>
         )}
 
+        {/* Options */}
         <ul>
           {Object.entries(options).map(([letter, opt], i) => {
-            const isCorrect = selected && letter === q.answer;
-            const isWrong = selected === letter && letter !== q.answer;
+            const isCorrect = selectedAnswer && letter === q.answer;
+            const isWrong = selectedAnswer === letter && letter !== q.answer;
 
             return (
               <li
                 key={i}
                 onClick={() => handleSelect(letter)}
                 className={
-                  selected
+                  selectedAnswer
                     ? isCorrect
                       ? "correct"
                       : isWrong
@@ -143,17 +197,27 @@ export default function QuizApp({ user, onExit }) {
           })}
         </ul>
 
-        {selected && (
+        {/* Feedback */}
+        {selectedAnswer && (
           <p className="feedback">
-            {selected === q.answer
+            {selectedAnswer === q.answer
               ? "✅ Correct!"
               : `❌ Incorrect! Correct Answer: ${q.answer}`}
           </p>
         )}
       </div>
 
+      {/* Footer */}
       <div className="quiz-footer">
-        <button onClick={handleNext}>Next</button>
+        <button onClick={handlePrevious} disabled={current === 0}>
+          Previous
+        </button>
+        <button
+          onClick={handleNext}
+          disabled={!answers[current]} // disable until answered
+        >
+          {current + 1 === questions.length ? "Finish" : "Next"}
+        </button>
       </div>
     </div>
   );
