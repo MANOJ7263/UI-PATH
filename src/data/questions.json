@@ -113,7 +113,7 @@
   },
   {
     "question_number": 14,
-    "question_text": "Considering that the attached table is stored in a variable called “dt”. Which LINQ query can be used to return the maximum total Quantity?",
+    "question_text": "Considering that the attached table is stored in a variable called “dt”.",
     "options": {
       "A": "dt.AsEnumerable. GroupBy(Function(x)x(\"Item\"). ToString). Max(Function(x)x.Sum(Function(y) Convert.Tolnt32(y(\"Quantity\").ToString)))",
       "B": "dt.AsEnumerable. Max(Function(x) Convert. Tolnt32(x(\"Quantity\"). ToString))",
@@ -122,7 +122,7 @@
     },
     "answer": "A",
     "images": [
-      "page_5_1.png"
+      "14.jpg"
     ]
   },
   {
@@ -149,9 +149,7 @@
       "D": "Build Log"
     },
     "answer": "A",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 18,
@@ -412,9 +410,7 @@
       "D": "The Object Repository cannot be passed between a Process and a Library."
     },
     "answer": "C",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 51,
@@ -426,9 +422,7 @@
       "D": "Full text"
     },
     "answer": "D",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 52,
@@ -610,9 +604,7 @@
       "D": "All running processes use the latest version of the dependency available."
     },
     "answer": "A",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 73,
@@ -624,9 +616,7 @@
       "D": "Property: FilterByMessageldsSchema: \"@SQL=\"\"urn:schemas:httpmail:subject\"\" like '%UiPath%\"\""
     },
     "answer": "B",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 74,
@@ -638,9 +628,7 @@
       "D": "Can have multiple initial states and only one final state."
     },
     "answer": "C",
-    "images": [
-      ""
-    ]
+    "images": []
   },
   {
     "question_number": 75,
